@@ -1,0 +1,54 @@
+/*	Your Profile
+------------------*/
+#page-profile {
+	margin: 0;
+	padding: 0;
+	width: 968px;
+}
+
+.section {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.component {
+	margin-bottom: 24px;
+	padding: 0 10px 15px 10px;
+	border: 1px solid #ededed;
+}
+
+.component header {
+	display: block;
+	background-color: #ededed;
+	margin: 0 -10px 15px -10px;
+	padding: 7px;
+}
+
+.component h2 {
+	font-size: 16px;
+	line-height: 16px;
+	display: inline-block;
+	margin: 0 8px 0 0;
+}
+
+.component h3 {
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 12px;
+	display: inline-block;
+}
+
+.505 {
+	width: 505px;
+}
+
+.425 {
+	width: 425px;
+}
+
+.section.505.left {
+	margin: 0 40px 0 0 !important;
+}
