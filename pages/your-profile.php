@@ -8,50 +8,79 @@
 				<h2>Personal Info</h2>
 				<h3>To be shown in Alumni Directory</h3>
 			</header>
-			<form action="#">
+			<form name="personal-info" id="personal-info" action="#">
 				<fieldset>
 					<ul>
 						<li>
-							
+							<label for="first-name">*First Name</label>
+							<input id="first-name" name="first-name" type="text" required autofocus>
 						</li>
 						<li>
-							
+							<label for="last-name">*Last Name</label>
+							<input id="last-name" name="last-name" type="text" required>
 						</li>
 						<li>
-							
+							<label for="degree">Degree</label>
+							<span class="no-edit">Bachelor of Science in Education/Elementary Teacher Education</span>
 						</li>
 						<li>
-							
+							<label for="degree-year">Year Degree Received</label>
+							<span class="no-edit">2004</span>
 						</li>
 						<li>
-							
+							<label for="campus">Campus</label>
+							<span class="no-edit">Boise</span>
 						</li>
 						<li>
-							
+							<label for="employer">Employer Name</label>
+							<input id="employer" name="employer" type="text">
 						</li>
 						<li>
-							
+							<label for="employer-city">Employer City</label>
+							<input id="employer-city" name="employer-city" type="text">
 						</li>
 						<li>
-							
+							<label for="employer-state">Employer State/Province</label>
+							<select name="employer-state" id="employer-state">
+								<option value="option1">option1</option>
+								<option value="option2">option2</option>
+								<option value="option3">option3</option>
+								<option value="option4">option4</option>
+								<option value="option5">option5</option>
+							</select>
 						</li>
 						<li>
-							
+							<label for="industry">Industry</label>
+							<select name="industry" id="industry">
+								<option value="option1">option1</option>
+								<option value="option2">option2</option>
+								<option value="option3">option3</option>
+								<option value="option4">option4</option>
+								<option value="option5">option5</option>
+							</select>
 						</li>
 						<li>
-							
+							<label for="title">Title</label>
+							<select name="title" id="title">
+								<option value="option1">option1</option>
+								<option value="option2">option2</option>
+								<option value="option3">option3</option>
+								<option value="option4">option4</option>
+								<option value="option5">option5</option>
+							</select>
 						</li>
 						<li>
-							
+							<label for="military-branch">Current or Former Military Branch, if any</label>
+							<select name="military-branch" id="military-branch">
+								<option value="option1">option1</option>
+								<option value="option2">option2</option>
+								<option value="option3">option3</option>
+								<option value="option4">option4</option>
+								<option value="option5">option5</option>
+							</select>
 						</li>
 					</ul>
-				</fieldset>
-				*First name: <input type="text" name="fname"><br>
-				*Last name: <input type="text" name="lname"><br>
-				Degree: <input type="text" name="add1"><br>
-				Employer: <input type="text" name="add2"><br>
-				Employer City: <input type="text" name="city"><br>
-				
+				</fieldset>				
 			</form>
 		</div><!-- .component -->
 		<div class="component">
