@@ -98,3 +98,14 @@ nav#footer-social .nav-pills > li > a#twitter { background: transparent url('../
 nav#footer-social .nav-pills > li > a#linkedin { background: transparent url('../img/icon-foot_li.png') left center no-repeat; }
 nav#footer-social .nav-pills > li > a#rss { background: transparent url('../img/icon-foot_rss.png') left center no-repeat; }
 nav#footer-social .nav-pills > li > a#phx-connect { background: transparent url('../img/icon-foot_phx-connect.png') left center no-repeat; }
+
+/*	Columns [YH]
+-------------------*/
+.section {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.505 { width: 505px; }
+.425 { width: 425px; }
+.section.505.left { margin: 0 40px 0 0 !important; }
