@@ -33,9 +33,8 @@
 		<meta name="author" content="">
 
 		<!-- Le styles -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/bootstrap-responsive.css" rel="stylesheet">
-		<link href="css/custom.css" rel="stylesheet">
+		<link href="/css/bootstrap.css" rel="stylesheet">
+		<!--<link href="/css/bootstrap-responsive.css" rel="stylesheet">-->
 
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -48,9 +47,16 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+		
+		<!-- Stylesheet includes to be concatenated into global.css, or included conditionally. Must load after Bootstrap. -->
+		<link href="/css/typography.css" rel="stylesheet">
+		<link href="/css/frame.css" rel="stylesheet">
+		<link href="/css/components/carousel.css" rel="stylesheet">
+		<link href="/css/components/events.css" rel="stylesheet">
 	</head>
 
 	<body>
+		
 		<header>
 			<nav id="toolbar">
 				<div class="navbar">
@@ -62,15 +68,16 @@
 							<li class="active"><a href="#">Login</a></li>
 							<li><a href="#about">Register</a></li>
 							<li><a href="#contact">Contact Us</a></li>
-							<li><a href="http://www.facebook.com">Facebook</a></li>
-							<li><a href="http://www.twitter.com">Twitter</a></li>
-							<li><a href="http://www.linkedin.com">LinkedIn</a></li>
-							<li><a href="#rss">RSS</a></li>
+							<li><a href="http://www.facebook.com"><img src="/img/icon-tool_facebook.png" alt="Facebook" /></a></li>
+							<li><a href="http://www.twitter.com"><img src="/img/icon-tool_twitter.png" alt="Twitter" /></a></li>
+							<li><a href="http://www.linkedin.com"><img src="/img/icon-tool_li.png" alt="LinkedIn" /></a></li>
+							<li><a href="#rss"><img src="/img/icon-tool_rss.png" alt="RSS" /></a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 			
+			<div class="container">
 			<h1 class="brand"><a href="./index.php">University of Phoenix Alumni Association</a></h1>
 			
 			<nav id="site">
@@ -78,23 +85,61 @@
 					<?=nav();?>
 				</ul>
 			</nav>
-			
+			</div>
 		</header>
 
-		<div class="container-fluid">
-			<? include_once('pages/'.$inclPage.'.php'); ?>
+		<div class="container">
+			<? include_once($_SERVER['DOCUMENT_ROOT'].'/sandbox/alumni/pages/'.$inclPage.'.php'); ?>
 		</div><!--/.fluid-container-->
 		
 		<footer>
-			<p>&copy; Company 2012</p>
+			<div class="container">
+				<div class="row">
+					<div class="span6">
+						<div class="wrap-shim">
+							<p>
+							&copy;2012 University of Phoenix, Inc. All rights reserved.<br />
+							Users of this site agree to the <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.
+							</p>
+							<div itemscope itemtype="//schema.org/Organization">
+								<span itemprop="name">University of Phoenix Alumni Association</span>
+								<span itemprop="telephone">800.795.2586 <strong>Phone</strong></span><br />
+								<span itemprop="faxNumber">602.643.0552 <strong>Fax</strong></span><br />
+								<span itemprop="email"><a href="mailto:alumni@phoenix.edu">alumni@phoenix.edu</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="span7 offset3">
+						<nav id="footer">
+							<ul class="nav nav-pills pull-right">
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">UOPX</a></li>
+								<li><a href="#">FAQ</a></li>
+								<li class="last"><a href="#">eCampus Library</a></li>
+							</ul>
+						</nav>
+						<nav id="footer-social">
+							<ul class="nav nav-pills pull-right">
+								<li><a id="fb" href="http://www.facebook.com">Facebook</a></li>
+								<li><a id="twitter" href="http://www.twitter.com">Twitter</a></li>
+								<li><a id="linkedin" href="http://www.linkedin.com">LinkedIn</a></li>
+								<li><a id="rss" href="#">RSS</a></li>
+								<li class="last"><a id="phx-connect" href="#">Phoenix Connect</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
 		</footer>
 
 		<!-- Le javascript
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/custom.js"></script>
+		<script src="/js/bootstrap.js"></script>
+		<script src="/js/custom.js"></script>
 
 	</body>
 </html>

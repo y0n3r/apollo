@@ -1,3 +1,16 @@
+[FORM PAGE TEMPLATE. SEE SOURCE]
+<!--
+TEMPLATE NOTES: Form Pages
+Form pages are a little different. Just use a single parsys.
+<div class="row">
+	<div class="span16">
+		<div class="section forms-area">
+			{Forms area parsys}
+		</div>
+	</div>
+</row>
+-->
+
 <style type="text/css">
 
 #page-profile {

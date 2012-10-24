@@ -1,0 +1,100 @@
+/*** // HEADER // ***/
+header .nav-pills > li > a {
+	margin: 0;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #000;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+/* Toolbar navbar */
+header .navbar { color: #fff; margin: 0; }
+
+header .navbar-inner { background-color: #0099cc; background-image: none; }
+
+header .navbar .nav > li > a {
+	border-right: 1px solid #fff;
+	padding: 0 7px; 
+	color: #fff;
+	text-shadow: none;
+	font-size: 12px;
+}
+
+/* Main nav */
+header .container {
+	background: transparent url('/img/bg_nav.png') 100% -69px no-repeat;
+	height: 119px;
+}
+
+header h1 {
+	display: block;
+	float: left;
+	margin: 25px 0 0 0;
+}
+header h1.brand a {
+	display: inline-block;
+	width: 230px; height: 59px;
+	overflow: hidden;
+	text-indent: -5000px;
+	background: transparent url('/img/logo_alumni.png') top left no-repeat;
+}
+
+nav#site {
+	display: inline-block;
+	float: right;
+	margin: 68px 0 0 0;
+}
+
+nav#site .nav-pills > li > a {
+	padding: 0 12px;
+	font-family: 'PhoenixSansBold';
+	font-size: 19px;
+	border-right: 1px solid #a5a5a5;
+	
+}
+
+nav#site .nav-pills > li.active > a { background: none; }
+
+
+/*** // FOOTER // ***/
+footer .container {
+	background: #666666;
+	color: #fff;
+	font-size: 11px;
+}
+
+footer .container a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+footer .wrap-shim { padding: 5px 0px 5px 15px; }
+
+footer span[itemprop='name'] { display: none; }
+
+/* Navs */
+footer .container .nav { margin-bottom: 10px; }
+
+footer .container nav a { text-decoration: none; }
+
+footer .nav-pills > li > a { margin: 0 2px 0 0; border-radius: 0; }
+footer .nav-pills > li > a:hover { background: transparent; text-decoration: underline; }
+
+nav#footer { margin: 5px 0 0 0 }
+nav#footer .nav-pills > li > a { border-right: 1px solid #999; padding: 0 8px; }
+nav#footer .nav-pills > li.last > a { border-right: 0px solid #999; }
+
+nav#footer-social .nav-pills > li > a { padding: 0 8px 0 12px; }
+nav#footer-social .nav-pills > li > a#fb { background: transparent url('/img/icon-foot_facebook.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#twitter { background: transparent url('/img/icon-foot_twitter.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#linkedin { background: transparent url('/img/icon-foot_li.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#rss { background: transparent url('/img/icon-foot_rss.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#phx-connect { background: transparent url('/img/icon-foot_phx-connect.png') left center no-repeat; }
