@@ -37,7 +37,7 @@
 		<meta name="author" content="">
 
 		<!-- Le styles -->
-		<link href="/css/bootstrap.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/bootstrap.css" rel="stylesheet">
 		<!--<link href="/css/bootstrap-responsive.css" rel="stylesheet">-->
 
 		<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -53,10 +53,10 @@
 		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 		
 		<!-- Stylesheet includes to be concatenated into global.css, or included conditionally. Must load after Bootstrap. -->
-		<link href="/css/typography.css" rel="stylesheet">
-		<link href="/css/frame.css" rel="stylesheet">
-		<link href="/css/components/carousel.css" rel="stylesheet">
-		<link href="/css/components/events.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/typography.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/frame.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/components/carousel.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/components/events.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -72,10 +72,10 @@
 							<li class="active"><a href="#">Login</a></li>
 							<li><a href="#about">Register</a></li>
 							<li><a href="#contact">Contact Us</a></li>
-							<li><a href="http://www.facebook.com"><img src="/img/icon-tool_facebook.png" alt="Facebook" /></a></li>
-							<li><a href="http://www.twitter.com"><img src="/img/icon-tool_twitter.png" alt="Twitter" /></a></li>
-							<li><a href="http://www.linkedin.com"><img src="/img/icon-tool_li.png" alt="LinkedIn" /></a></li>
-							<li><a href="#rss"><img src="/img/icon-tool_rss.png" alt="RSS" /></a></li>
+							<li><a href="http://www.facebook.com"><img src="/statics/alumni/global/img/icon-tool_facebook.png" alt="Facebook" /></a></li>
+							<li><a href="http://www.twitter.com"><img src="/statics/alumni/global/img/icon-tool_twitter.png" alt="Twitter" /></a></li>
+							<li><a href="http://www.linkedin.com"><img src="/statics/alumni/global/img/icon-tool_li.png" alt="LinkedIn" /></a></li>
+							<li><a href="#rss"><img src="/statics/alumni/global/img/icon-tool_rss.png" alt="RSS" /></a></li>
 						</ul>
 					</div>
 				</div>
@@ -142,8 +142,8 @@
 		================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-		<script src="/js/bootstrap.js"></script>
-		<script src="/js/custom.js"></script>
+		<script src="/statics/alumni/global/js/bootstrap.js"></script>
+		<script src="/statics/alumni/global/js/custom.js"></script>
 
 	</body>
 </html>

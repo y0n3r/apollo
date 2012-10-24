@@ -30,7 +30,7 @@ header .navbar .nav > li > a {
 
 /* Main nav */
 header .container {
-	background: transparent url('/img/bg_nav.png') 100% -69px no-repeat;
+	background: transparent url('../img/bg_nav.png') 100% -69px no-repeat;
 	height: 119px;
 }
 
@@ -44,7 +44,7 @@ header h1.brand a {
 	width: 230px; height: 59px;
 	overflow: hidden;
 	text-indent: -5000px;
-	background: transparent url('/img/logo_alumni.png') top left no-repeat;
+	background: transparent url('../img/logo_alumni.png') top left no-repeat;
 }
 
 nav#site {
@@ -93,8 +93,8 @@ nav#footer .nav-pills > li > a { border-right: 1px solid #999; padding: 0 8px; }
 nav#footer .nav-pills > li.last > a { border-right: 0px solid #999; }
 
 nav#footer-social .nav-pills > li > a { padding: 0 8px 0 12px; }
-nav#footer-social .nav-pills > li > a#fb { background: transparent url('/img/icon-foot_facebook.png') left center no-repeat; }
-nav#footer-social .nav-pills > li > a#twitter { background: transparent url('/img/icon-foot_twitter.png') left center no-repeat; }
-nav#footer-social .nav-pills > li > a#linkedin { background: transparent url('/img/icon-foot_li.png') left center no-repeat; }
-nav#footer-social .nav-pills > li > a#rss { background: transparent url('/img/icon-foot_rss.png') left center no-repeat; }
-nav#footer-social .nav-pills > li > a#phx-connect { background: transparent url('/img/icon-foot_phx-connect.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#fb { background: transparent url('../img/icon-foot_facebook.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#twitter { background: transparent url('../img/icon-foot_twitter.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#linkedin { background: transparent url('../img/icon-foot_li.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#rss { background: transparent url('../img/icon-foot_rss.png') left center no-repeat; }
+nav#footer-social .nav-pills > li > a#phx-connect { background: transparent url('../img/icon-foot_phx-connect.png') left center no-repeat; }
