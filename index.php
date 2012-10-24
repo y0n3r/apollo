@@ -55,6 +55,7 @@
 		<!-- Stylesheet includes to be concatenated into global.css, or included conditionally. Must load after Bootstrap. -->
 		<link href="/statics/alumni/global/css/typography.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/frame.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/components/style.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/carousel.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/events.css" rel="stylesheet">
 	</head>
