@@ -1,4 +1,8 @@
 <?
+	if (!empty($_SERVER['SUBDOMAIN_DOCUMENT_ROOT'])) {
+		$_SERVER['DOCUMENT_ROOT'] = $_SERVER['SUBDOMAIN_DOCUMENT_ROOT'];
+	}
+	
 	$inclPage = ($_REQUEST['page'] ? $_REQUEST['page'] : 'homepage');
 	
 	function nav(){       
@@ -89,7 +93,7 @@
 		</header>
 
 		<div class="container">
-			<? include_once($_SERVER['DOCUMENT_ROOT'].'/sandbox/alumni/pages/'.$inclPage.'.php'); ?>
+			<? include_once($_SERVER['DOCUMENT_ROOT'].'/pages/'.$inclPage.'.php'); ?>
 		</div><!--/.fluid-container-->
 		
 		<footer>
