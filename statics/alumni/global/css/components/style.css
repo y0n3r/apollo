@@ -1,0 +1,30 @@
+/*	Global component styles. [YH]
+------------------------------------*/
+.component {
+	margin-bottom: 24px;
+	padding: 0 10px 15px 10px;
+	border: 1px solid #ededed;
+}
+
+.component header {
+	display: block;
+	background-color: #ededed;
+	margin: 0 -10px 15px -10px;
+	padding: 7px;
+}
+
+.component h2 {
+	font-size: 16px;
+	line-height: 16px;
+	display: inline-block;
+	margin: 0 8px 0 0;
+}
+
+.component h3 {
+	color: #666666;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 12px;
+	display: inline-block;
+}
