@@ -16,11 +16,20 @@
 		
 		$base = ($_REQUEST['page'] ? $_REQUEST['page'] : 'homepage');
 		
+		$last_item = end($nav);
+		$last_item = each($nav);
+		reset($nav);
+		
 		foreach($nav as $name => $page){
+			$lastIndicator = "not-last";
+			if($page == $last_item['value'] && $name == $last_item['key']){
+				$lastIndicator = "last";
+			}
+			
 			if($base == $page){
-				$navBuild .= "<li class=\"active\"><a href=\"./index.php?page=$page\">$name</a></li>\n";
+				$navBuild .= "<li class=\"active $lastIndicator\"><a href=\"./index.php?page=$page\">$name</a></li>\n";
 			} else {
-				$navBuild .= "<li><a href=\"./index.php?page=$page\">$name</a></li>\n";
+				$navBuild .= "<li class=\"$lastIndicator\"><a href=\"./index.php?page=$page\">$name</a></li>\n";
 			}
 		}
 		

@@ -18,14 +18,34 @@ header .nav-pills > li > a {
 /* Toolbar navbar */
 header .navbar { color: #fff; margin: 0; }
 
-header .navbar-inner { background-color: #0099cc; background-image: none; }
+header .navbar-inner { background-color: #0099cc; background-image: none; min-height: auto; }
+
+header .navbar .nav {
+	margin: 5px 10px 0 0;
+}
 
 header .navbar .nav > li > a {
 	border-right: 1px solid #fff;
-	padding: 0 7px; 
+	padding: 10px 7px 5px; 
 	color: #fff;
 	text-shadow: none;
 	font-size: 12px;
+}
+
+form.navbar-search {
+	margin-left: 10px;
+}
+
+header .navbar-search .search-query {
+	margin-bottom: 0;
+	padding: 4px 6px;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	line-height: 1em;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
 }
 
 /* Main nav */
@@ -55,10 +75,14 @@ nav#site {
 
 nav#site .nav-pills > li > a {
 	padding: 0 12px;
-	font-family: 'PhoenixSansBold';
-	font-size: 19px;
+	font-family: 'PhoenixSansMedium';
+	font-size: 18px;
 	border-right: 1px solid #a5a5a5;
 	
+}
+nav#site .nav-pills > li.last > a {
+	border: 0;
+	padding-right: 0;
 }
 
 nav#site .nav-pills > li.active > a { background: none; }

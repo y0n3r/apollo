@@ -1,5 +1,57 @@
-
 .carousel {
 	max-width: 960px;
 	margin: 0 auto 0;
 }
+
+.carousel-control {
+	position: absolute;
+	top: 40%;
+	left: 15px;
+	width: 40px;
+	height: 40px;
+	margin-top: -20px;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 30px;
+	color: white;
+	text-align: center;
+	background: #222;
+	border: 3px solid white;
+	-webkit-border-radius: 23px;
+	-moz-border-radius: 23px;
+	border-radius: 23px;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.carousel-control.right {
+	left: auto;
+	right: 15px;
+}
+
+.carousel-caption {
+	left: 50px;
+	top: 0;
+	padding: 20px;
+	width: 454px; height: 200px;
+}
+.carousel-caption.orange { background: #FF6600; background: rgba(255, 102, 0, 0.90); }
+.carousel-caption.red { background: #D7234A; background: rgba(215, 35, 74, 0.90); }
+.carousel-caption.purple { background: #851782; background: rgba(133, 23, 130, 0.90); }
+.carousel-caption.blue { background: #0099CC; background: rgba(0, 153, 204, 0.90); }
+.carousel-caption.pale-blue { background: #A3DBE8; background: rgba(163, 219, 232, 0.90); }
+.carousel-caption.green { background: #4FAC1C; background: rgba(79, 172, 28, 0.90); }
+.carousel-caption.avocado { background: #B7CD00; background: rgba(183, 205, 0, 0.90); }
+
+/*___*** Thumbnails ***___*/
+.carousel-thumbs {
+	position: absolute;
+	bottom: 0; left: 0;
+	background: #000;
+	background: rgba(0,0,0,.90);
+}
+
+.carousel-thumbs ul.thumbnails {}
+
+.carousel-thumbs ul.thumbnails li {}
+
+
