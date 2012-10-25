@@ -1,0 +1,42 @@
+/*	Form Styles [YH]
+---------------------*/
+._505 { width: 505px; }
+._425 { width: 425px; }
+.form-section._505.left { margin: 0 40px 0 0 !important; }
+.form-section ul li { margin-bottom: 13px; }
+.form-section input { margin-bottom: 0; }
+input[type="file"] { width: 50% }
+.form-section {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+.form-section label {
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+	width: 35%;
+	text-align: right;
+	margin-right: 7px;
+	margin-bottom: 0;
+}
+label.checkbox {
+	text-align: left;
+	width: auto;
+	padding-left: 5px;
+}
+.form-section ul li span { 
+	font-size: 13px;
+	display: inline-block;
+	width: 50%;
+	color: #666;
+}
+.thumbnail img {
+	float: left;
+	margin-right: 30px;
+}
+.form-section select.bday {
+	display: inline-block;
+	width: auto;
+}
