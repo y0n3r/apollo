@@ -1,3 +1,5 @@
+.container { min-width: 960px !important; }
+
 /*** // HEADER // ***/
 header .nav-pills > li > a {
 	margin: 0;
@@ -131,6 +133,10 @@ nav#site .nav-pills > li.active > a {
 	border-radius: 0px;
 	font-size: 11px;
 }
+
+
+.row.modules-home { margin-bottom: 20px; }
+
 
 /*** // FOOTER // ***/
 footer .container {

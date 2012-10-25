@@ -38,22 +38,87 @@
 	background: #851782;
 	padding: 0;
 	color: #fff;
+	font-size: 13px;
 }
 .resources.section { display: block; }
 .resources .interior { padding: 10px; }
 
-.resources .interior h3 { margin: 0; font-size: 21px; }
+.resources .interior h3 {
+	margin: 0 0 15px; padding: 0 0 10px;
+	font-size: 21px; line-height: 1.0em;
+	border-bottom: 1px dotted #fff;
+}
+
+.resources .interior ul {
+	display: block;
+	border-bottom: 1px dotted #fff;
+	padding: 0 0 10px; margin: 0 0 15px;
+}
+.resources .interior ul li {
+	list-style: none;
+	margin: 0 0 5px; padding: 0;
+}
+
+.resources .interior ul li a {
+	color: #fff;
+	text-decoration: underline;
+	font-family: 'PhoenixSansMedium';
+}
+
+.resources .interior a.more {
+	display: block;
+	background: url('../../img/arrow_more-white.png') right 0 no-repeat;
+	font-size: 15px;
+	color: #fff;
+}
 
 /* Events */
 .events {
 	background: #b7cd00;
 	color: #000;
+	font-size: 12px;
 }
 .events .interior {
 	padding: 10px;
 }
 
-.events .interior h3 { margin: 0; font-size: 21px; }
+.events .interior h3 {
+	margin: 0 0 15px; padding: 0 0 10px;
+	font-size: 21px; line-height: 1.0em;
+	border-bottom: 1px dotted #000;
+}
+
+.events .interior ul {
+	margin: 0; padding: 0;
+}
+
+.events .interior ul li {
+	list-style: none;
+	margin: 0 0 10px; padding: 0 0 5px;
+	border-bottom: 1px dotted #000;
+}
+
+.events .interior h4 {
+	font-size: 14px; line-height: 1.0em;
+	margin: 0;
+}
+.events .interior p {
+	line-height: 1.4em;
+	margin: 0;
+}
+
+.events .interior ul li > a {
+	font-family: 'PhoenixSansMedium';
+	color: #000;
+}
+
+.events .interior a.more {
+	display: block;
+	background: url('../../img/arrow_more-black.png') right 0 no-repeat;
+	font-size: 15px;
+	color: #000;
+	font-family: 'PhoenixSansMedium';
+}
 
 .events.section { display: block; }
 
@@ -62,10 +127,35 @@
 	background: #d7234a;
 	padding: 10px;
 	color: #fff;
+	font-size: 12px;
 }
 .benefits-discounts.section { display: block; }
 
-.benefits-discounts .interior h3 { margin: 0; font-size: 20px; }
+.benefits-discounts .interior h3 {
+	margin: 0 0 15px; padding: 0 0 10px;
+	font-size: 20px; line-height: 1.0em;
+	border-bottom: 1px dotted #fff;
+}
+
+.benefits-discounts .interior ul {
+	padding: 0; margin: 0;
+}
+
+.benefits-discounts .interior ul li {
+	list-style: none;
+	padding: 0; margin: 0;
+}
+
+.benefits-discounts .interior ul li a {
+	display: block;
+	color: #fff;
+	background: url('../../img/arrow_more-white.png') right center no-repeat;
+}
+
+.benefits-discounts .interior ul li a h4 {
+	font-size: 14px; line-height: 1.0em;
+	margin: 0;
+}
 
 
 /* Homecoming */

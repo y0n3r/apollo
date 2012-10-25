@@ -97,7 +97,7 @@ Here is the markup for the home page, without content for ease of integration.
 					<li class="span4">
 						<div class="thumbnail" id="thumb-002" rel="002">
 							<img src="/dam/slide-02-thumb.jpg" alt="">
-							<h3>Something Strong</h3>
+							<h3>Something Bold</h3>
 						</div>
 					</li>
 					<li class="span4">
@@ -145,7 +145,7 @@ Here is the markup for the home page, without content for ease of integration.
 	</div><!--/span-->
 </div>
 
-<div class="row">
+<div class="row modules-home">
 	<div class="span16">
 		<div class="row">
 			<div class="span8">
@@ -154,6 +154,12 @@ Here is the markup for the home page, without content for ease of integration.
 					<img src="/dam/career-resources.jpg" />
 					<div class="interior">
 						<h3>Career Resources</h3>
+						<p>We partner with a variety of reputable companies to offer you the best career opportunities.</p>
+						<ul>
+							<li><a href="">Program Manager School of Business</a>, San Francisco, CA</li>
+							<li><a href="">Electrical Engineering Intern - RF System Performance</a>, San Jose, CA</li>
+						</ul>
+						<a class="more">See more job listings</a>
 					</div>
 				</div>
 				<!-- END CQ COMPONENT -->
@@ -164,6 +170,21 @@ Here is the markup for the home page, without content for ease of integration.
 					<img src="/dam/events.jpg" />
 					<div class="interior">
 						<h3>Events</h3>
+						<ul>
+							<li>
+								<h4>Alumni Nurses Network</h4>
+								<p>San Francisco, CA</p>
+								<p>March 11, 2012 at 7:30pm</p>
+								<a href="">More details ></a>
+							</li>
+							<li>
+								<h4>Operation Thank You</h4>
+								<p>Murrieta, CA</p>
+								<p>July 9, 2012 at 5:30pm</p>
+								<a href="">More details ></a>
+							</li>
+						</ul>
+						<a class="more">Find events near you</a>
 					</div>
 				</div>
 				<!-- END CQ COMPONENT -->
@@ -173,6 +194,26 @@ Here is the markup for the home page, without content for ease of integration.
 				<div class="section benefits-discounts">
 					<div class="interior">
 						<h3>Benefits & Discounts</h3>
+						<ul>
+							<li>
+								<a href="">
+									<h4>University Library</h4>
+									<p>Lifelong learning made easy</p>
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<h4>University Marketplace</h4>
+									<p>Discounts and deals</p>
+								</a>
+							</li>
+							<li class="last">
+								<a href="">
+									<h4>Scholarships</h4>
+									<p>Find your funding</p>
+								</a>
+							</li>
+						</ul>
 					</div>
 				</div>
 				<!-- END CQ COMPONENT -->
