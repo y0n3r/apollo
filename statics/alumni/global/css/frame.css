@@ -16,29 +16,46 @@ header .nav-pills > li > a {
 }
 
 /* Toolbar navbar */
-header .navbar { color: #fff; margin: 0; }
+header .navbar { color: #fff; margin: 0; background: #0099cc; }
 
-header .navbar-inner { background-color: #0099cc; background-image: none; min-height: auto; }
+header .navbar-inner {
+	background-color: #0099cc;
+	background-image: none;
+	min-height: auto;
+	padding: 0;
+	background-repeat: no-repeat;
+	filter: none;
+	border: 0px solid #D4D4D4;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: 0;
+	-moz-box-shadow: 0;
+	box-shadow: 0;
+	width: 967px;
+	margin: 0 auto;
+}
 
 header .navbar .nav {
-	margin: 5px 10px 0 0;
+	margin: 0px 10px 0 0;
 }
 
 header .navbar .nav > li > a {
 	border-right: 1px solid #fff;
-	padding: 10px 7px 5px; 
+	padding: 7px 7px 6px; 
 	color: #fff;
 	text-shadow: none;
 	font-size: 12px;
 }
+header .navbar .nav > li.last > a { border-right: 0px solid #fff; }
 
 form.navbar-search {
-	margin-left: 10px;
+	margin-top: 0;
 }
 
 header .navbar-search .search-query {
-	margin-bottom: 0;
-	padding: 4px 6px;
+	margin: 2px 10px;
+	padding: 2px 6px;
 	font-family: Arial, sans-serif;
 	font-size: 11px;
 	font-weight: normal;
@@ -152,6 +169,8 @@ nav#footer-social .nav-pills > li > a#phx-connect { background: transparent url(
 
 /*	Columns [YH]
 -------------------*/
+/* Yonas, can we make this more Form page specific? We are handling sections and columns for the templated pages using Bootstrap. */
+/*
 .section {
 	display: inline-block;
 	margin: 0;
@@ -161,3 +180,4 @@ nav#footer-social .nav-pills > li > a#phx-connect { background: transparent url(
 ._505 { width: 505px; }
 ._425 { width: 425px; }
 .section._505.left { margin: 0 40px 0 0 !important; }
+*/

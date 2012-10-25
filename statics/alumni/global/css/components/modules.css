@@ -1,3 +1,73 @@
+/* Homepage Modules */
+.news-ticker {
+	overflow: hidden;
+	margin: 20px 0;
+}
+.news-ticker.section { display: block; }
+.news-ticker .controls { float: left; margin-right: 15px; }
+.news-ticker .controls a {
+	display: block;
+	width: 23px; height: 25px;
+	text-indent: -5000px;
+	background-repeat: no-repeat;
+	background-image: url('../../img/sprite_ticker-control.png');
+}
+.news-ticker .controls a.prev { background-position: 0 0; margin-bottom: 1px; }
+.news-ticker .controls a.next { background-position: 0 -78px; }
+
+.news-ticker .item { float: left; overflow: hidden; }
+
+.news-ticker .item img,
+.news-ticker .item .ticker-text {
+	float: left;
+}
+.news-ticker .item .ticker-text {
+	margin: 0 15px 0;
+}
+
+.news-ticker .item .ticker-text h3,
+.news-ticker .item .ticker-text h4 {
+	margin: 0;
+	line-height: 1em;
+}
+.news-ticker .item .ticker-text h3 { font-size: 22px; margin-bottom: 5px; }
+.news-ticker .item .ticker-text h4 { font-size: 16px; }
+
+/* Resources */
+.resources {
+	background: #851782;
+	padding: 0;
+	color: #fff;
+}
+.resources.section { display: block; }
+.resources .interior { padding: 10px; }
+
+.resources .interior h3 { margin: 0; font-size: 21px; }
+
+/* Events */
+.events {
+	background: #b7cd00;
+	color: #000;
+}
+.events .interior {
+	padding: 10px;
+}
+
+.events .interior h3 { margin: 0; font-size: 21px; }
+
+.events.section { display: block; }
+
+/* Benefits & Discounts */
+.benefits-discounts {
+	background: #d7234a;
+	padding: 10px;
+	color: #fff;
+}
+.benefits-discounts.section { display: block; }
+
+.benefits-discounts .interior h3 { margin: 0; font-size: 20px; }
+
+
 /* Homecoming */
 /* We might want to make this more generic once we have a block (module) audit */
 .homecoming {
@@ -58,3 +128,4 @@
 	color: #000;
 	font-family: 'PhoenixSansMedium';
 }
+

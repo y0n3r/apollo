@@ -11,9 +11,9 @@ $(document).ready(function(){
 		return false;
 	});
 	
-	//Center carousel thumbnails
+	//___ Carousel ___//
 	$('.carousel').carousel();
-	//var thumbWidth = $('.carousel-thumbs').outerWidth();
+	//Center thumbnails
 	$('.carousel-thumbs').width( $('.carousel-thumbs').outerWidth() );
-	$('.carousel-thumbs').css('margin-left', ($('.carousel-thumbs').outerWidth()/2) );
+	$('.carousel-thumbs').css('margin-left', ($('.carousel-thumbs').outerWidth()/2-70) );
 });

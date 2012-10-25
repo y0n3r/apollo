@@ -87,7 +87,7 @@
 							<li><a href="http://www.facebook.com"><img src="/statics/alumni/global/img/icon-tool_facebook.png" alt="Facebook" /></a></li>
 							<li><a href="http://www.twitter.com"><img src="/statics/alumni/global/img/icon-tool_twitter.png" alt="Twitter" /></a></li>
 							<li><a href="http://www.linkedin.com"><img src="/statics/alumni/global/img/icon-tool_li.png" alt="LinkedIn" /></a></li>
-							<li><a href="#rss"><img src="/statics/alumni/global/img/icon-tool_rss.png" alt="RSS" /></a></li>
+							<li class="last"><a href="#rss"><img src="/statics/alumni/global/img/icon-tool_rss.png" alt="RSS" /></a></li>
 						</ul>
 					</div>
 				</div>

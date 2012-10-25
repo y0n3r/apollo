@@ -3,29 +3,58 @@
 	margin: 0 auto 0;
 }
 
+.carousel .dateline {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+	margin: 0 0 30px 0;
+}
+.carousel h4 {
+	font-size: 45px;
+	line-height: 1.0em;
+	margin: 0 0 10px;
+}
+.carousel p {
+	line-height: 1.5em;
+}
+.carousel a.read-more {
+	display: inline-block;
+	margin: 10px 0 0;
+	padding: 2px 25px 3px 0;
+	background: transparent url('../../img/arrow_signup.png') 100% 0 no-repeat;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'PhoenixSansMedium';
+}
+
 .carousel-control {
 	position: absolute;
 	top: 40%;
-	left: 15px;
-	width: 40px;
-	height: 40px;
+	left: 0;
+	width: 34px;
+	height: 67px;
 	margin-top: -20px;
 	font-size: 60px;
 	font-weight: 100;
 	line-height: 30px;
 	color: white;
 	text-align: center;
-	background: #222;
-	border: 3px solid white;
-	-webkit-border-radius: 23px;
-	-moz-border-radius: 23px;
-	border-radius: 23px;
-	opacity: 0.5;
-	filter: alpha(opacity=50);
+	background: transparent;
+	border: 0px solid white;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	opacity: 1.0;
+	filter: alpha(opacity=100);
+	text-indent: -5000px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
 }
+.carousel-control.left { background-image: url('../../img/arrow_caro-left.png'); }
 .carousel-control.right {
+	background-image: url('../../img/arrow_caro-right.png');
 	left: auto;
-	right: 15px;
+	right: 0;
 }
 
 .carousel-caption {
