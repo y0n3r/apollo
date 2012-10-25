@@ -16,4 +16,21 @@ $(document).ready(function(){
 	//Center thumbnails
 	$('.carousel-thumbs').width( $('.carousel-thumbs').outerWidth() );
 	$('.carousel-thumbs').css('margin-left', ($('.carousel-thumbs').outerWidth()/2-70) );
+	$('.carousel-thumbs').slideDown();
+	
+	//Thumbnail hovers
+	$('.carousel-thumbs .thumbnail').mouseenter(function(){
+		$(this).children('h3').css('top','0');
+	});
+	$('.carousel-thumbs .thumbnail').mouseleave(function(){
+		$(this).children('h3').css('top','-60px');
+	});
+	
+	//Thumbnail click
+	$('.carousel-thumbs .thumbnail').click(function(){
+		var slideID = $(this).attr('rel');
+		$('.carousel .item.active').removeClass('active');
+		$('.carousel .item[rel="'+slideID+'"]').addClass('active');
+		$('.carousel').carousel('pause');
+	});
 });

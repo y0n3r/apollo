@@ -38,7 +38,7 @@ Here is the markup for the home page, without content for ease of integration.
 	<div class="span16">
 		<div id="myCarousel" class="carousel slide">
 			<div class="carousel-inner">
-				<div class="active item">
+				<div class="active item" rel="001">
 					<img src="/dam/slide-01.jpg" alt="">
 					<div class="carousel-caption green">
 						<div class="dateline">January/February 2012</div>
@@ -47,38 +47,38 @@ Here is the markup for the home page, without content for ease of integration.
 						<a href="" class="read-more">Read more about Michael's quest</a>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item" rel="002">
 					<img src="/dam/slide-02.jpg" alt="">
 					<div class="carousel-caption avocado">
 						<div class="dateline">January/February 2012</div>
-						<h4><strong>The Happiness</strong> Issue</h4>
+						<h4><strong>Something</strong> Bold</h4>
 						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
 						<a href="" class="read-more">Read more about Michael's quest</a>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item" rel="003">
 					<img src="/dam/slide-03.jpg" alt="">
 					<div class="carousel-caption orange">
 						<div class="dateline">January/February 2012</div>
-						<h4><strong>The Happiness</strong> Issue</h4>
+						<h4>The Strength<strong> of Numbers</strong></h4>
 						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
 						<a href="" class="read-more">Read more about Michael's quest</a>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item" rel="004">
 					<img src="/dam/slide-04.jpg" alt="">
 					<div class="carousel-caption red">
 						<div class="dateline">January/February 2012</div>
-						<h4><strong>The Happiness</strong> Issue</h4>
+						<h4>In <strong>My Defense</strong></h4>
 						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
 						<a href="" class="read-more">Read more about Michael's quest</a>
 					</div>
 				</div>
-				<div class="item">
+				<div class="item" rel="005">
 					<img src="/dam/slide-05.jpg" alt="">
 					<div class="carousel-caption purple">
 						<div class="dateline">January/February 2012</div>
-						<h4><strong>The Happiness</strong> Issue</h4>
+						<h4><strong>Come</strong> About</h4>
 						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
 						<a href="" class="read-more">Read more about Michael's quest</a>
 					</div>
@@ -89,33 +89,33 @@ Here is the markup for the home page, without content for ease of integration.
 			<div class="carousel-thumbs">
 				<ul class="thumbnails">
 					<li class="span4">
-						<div class="thumbnail" id="thumb-001">
+						<div class="thumbnail" id="thumb-001" rel="001">
 							<img src="/dam/slide-01-thumb.jpg" alt="">
-							<h3>Thumbnail label</h3>
+							<h3>The Happiness Issue</h3>
 						</div>
 					</li>
 					<li class="span4">
-						<div class="thumbnail" id="thumb-002">
+						<div class="thumbnail" id="thumb-002" rel="002">
 							<img src="/dam/slide-02-thumb.jpg" alt="">
-							<h3>Thumbnail label</h3>
+							<h3>Something Strong</h3>
 						</div>
 					</li>
 					<li class="span4">
-						<div class="thumbnail" id="thumb-003">
+						<div class="thumbnail" id="thumb-003" rel="003">
 							<img src="/dam/slide-03-thumb.jpg" alt="">
-							<h3>Thumbnail label</h3>
+							<h3>The Strength of Numbers</h3>
 						</div>
 					</li>
 					<li class="span4">
-						<div class="thumbnail" id="thumb-004">
+						<div class="thumbnail" id="thumb-004" rel="004">
 							<img src="/dam/slide-04-thumb.jpg" alt="">
-							<h3>Thumbnail label</h3>
+							<h3>In My Defense</h3>
 						</div>
 					</li>
 					<li class="span4">
-						<div class="thumbnail" id="thumb-005">
+						<div class="thumbnail" id="thumb-005" rel="005">
 							<img src="/dam/slide-05-thumb.jpg" alt="">
-							<h3>Thumbnail label</h3>
+							<h3>Come About</h3>
 						</div>
 					</li>
 				</ul>

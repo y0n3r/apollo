@@ -73,6 +73,7 @@
 
 /*___*** Thumbnails ***___*/
 .carousel-thumbs {
+	display: none;
 	position: absolute;
 	bottom: 0; left: 0;
 	background: #000;
@@ -104,6 +105,7 @@
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	position: relative;
+	overflow: hidden;
 }
 .carousel-thumbs .thumbnail:hover {
 	cursor: pointer;
@@ -112,13 +114,13 @@
 .carousel-thumbs .thumbnail > img { max-width: auto; }
 
 .carousel-thumbs .thumbnail h3 {
-	display: none;
 	font-size: 10px;
-	position: absolute; top: 0; left: 0;
+	position: absolute; top: -60; left: 0;
 	background: #fff;
 	background: rgba(0,0,0,0.70);
-	margin: 0; padding: 0;
+	margin: 0; padding: 10px 0 0;
 	width: 102px; height: 53px;
 	text-align: center;
 	color: #fff;
+	line-height: 1.5em;
 }
