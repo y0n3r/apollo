@@ -91,6 +91,11 @@ nav#site .nav-pills > li.active > a {
 	padding-bottom: 2px;
 }
 
+/*** // LAYOUT ISSUES // ***/
+.sidebar {
+	margin-top: 52px;
+}
+
 /*** // PAGE HEADLINE // ***/
 .page-headline h2 {
 	font-size: 44px;

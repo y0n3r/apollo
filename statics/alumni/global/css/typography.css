@@ -144,6 +144,6 @@
 }
 
 body { font-family: 'PhoenixSansRegular'; }
-strong { font-family: 'PhoenixSansBold'; }
+strong { font-family: 'PhoenixSansMedium'; }
 em { font-family: 'PhoenixSansRegularItalic'; }
 strong em, em strong { font-family: 'PhoenixSansBoldItalic'; }

@@ -66,6 +66,7 @@
 		<link href="/statics/alumni/global/css/typography.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/frame.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/style.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/components/modules.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/carousel.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/events.css" rel="stylesheet">
 	</head>

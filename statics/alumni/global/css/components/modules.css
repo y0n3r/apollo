@@ -1,0 +1,60 @@
+/* Homecoming */
+/* We might want to make this more generic once we have a block (module) audit */
+.homecoming {
+	background: #b7cd00 url('../../img/blockhead_homecoming.jpg') top left no-repeat;
+	padding: 82px 0 0;
+}
+
+.homecoming h3 { font-size: 27px; margin: 12px 5px 5px; line-height: 1em; }
+
+.homecoming p { font-size: 13px; margin: 0 5px 10px; width: 200px; }
+
+.filmstrip-block {
+	background: #fff;
+	margin: 10px 5px; padding: 5px;
+}
+
+.filmstrip-block h4 { font-size: 15px; margin: 0 0 5px; }
+
+.filmstrip-block .thumbnails {
+	margin-left: -5px;
+	margin-bottom: 0;
+}
+
+.filmstrip-block .thumbnails > li {
+	float: left;
+	margin: 0 0px 0px 5px;
+}
+
+.filmstrip-block .thumbnail {
+	display: block;
+	padding: 0px;
+	line-height: 18px;
+	border: 0px solid #DDD;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.filmstrip-block .thumbnail > img {
+	display: block;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.homecoming a.more {
+	display: inline-block;
+	margin: 12px 5px 15px; padding: 2px 25px 3px 0;
+	background: transparent url('../../img/arrow_signup.png') 100% 0 no-repeat;
+	font-size: 16px;
+	color: #000;
+	font-family: 'PhoenixSansMedium';
+}

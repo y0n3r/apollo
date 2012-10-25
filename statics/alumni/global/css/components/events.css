@@ -1,2 +1,85 @@
+.event-tools { padding: 25px 0 0; margin: 0 0 10px; overflow: hidden; }
+
+.event-tools form { float: left; overflow: hidden; margin: 0; }
+.event-tools form select, .event-tools form label { float: left; margin: 0 5px 0 0; }
+.event-tools form select {
+	font-size: 12px;
+	width: auto;
+}
+.event-tools form label {
+	padding: 5px 0 0 0;
+	font-size: 17px;
+	font-family: 'PhoenixSansMedium';
+}
+
+.event-tools .toggle-view {
+	float: right;
+	font-size: 11px;
+}
+.event-tools .toggle-view a {
+	padding: 2px 28px 2px 0; margin: 0 0 0 8px;
+	background-image: url('../../img/sprite-event-toggle.png');
+	background-repeat: no-repeat;
+}
+.event-tools .toggle-view a#list-event { background-position: 100% 2px; }
+.event-tools .toggle-view a#list-event.active { background-position: 100% -28px; }
+.event-tools .toggle-view a#map-event { background-position: 100% -60px; }
+.event-tools .toggle-view a#map-event.active { background-position: 100% -90px; }
+
 .view-event { display: none; }
-.view-event.active { display: block; }
+.view-event.active { display: block; margin: 0 0 20px; }
+
+
+/*___ List View ___*/
+.view-event .list-item {
+	border-top: 1px dotted #000;
+	position: relative;
+	margin: 0 0 24px;
+}
+.view-event .list-item.active { border-top: 1px solid #000; }
+
+.view-event .list-item .indicator-date {
+	position: absolute;
+	top: -1px; left: 0;
+	background: #000;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	width: 40px; height: 40px;
+}
+.view-event .list-item .indicator-date span { display: block; font-family: 'PhoenixSansMedium'; }
+.view-event .list-item .indicator-date span.month { font-size: 14px; }
+.view-event .list-item .indicator-date span.date { font-size: 20px; }
+
+.view-event .list-item .row { margin: 0 0 30px; }
+
+.event-headline {
+	display: inline-block;
+	float: left;
+}
+.view-event .list-item h3 { font-size: 21px; margin: 20px 0 0 0px; line-height: 1.0em; }
+.view-event .list-item h3 a { font-family: 'PhoenixSansMedium'; }
+.view-event .list-item h4.dateline { font-size: 15px; margin: 0px 0 0 0px; }
+
+.signup { margin: 20px 0 0 0; float: right; display: inline-block; }
+.signup a {
+	font-size: 18px;
+	background: transparent url('../../img/arrow_signup.png') 100% 0 no-repeat;
+	padding: 0 30px 0 0;
+	font-family: 'PhoenixSansMedium';
+}
+
+.view-event .list-item div[itemprop='description'] { margin: 0; }
+.view-event .list-item div.details { margin: 30px 0 0 0px; }
+.view-event .list-item div.event-social { margin: 10px 0 0 0px; }
+.view-event .list-item div.event-social a { margin: 0 3px 0 0; }
+
+.view-event .list-item .offset1 { margin-left: 61px; }
+
+.details-location { font-size: 12px; }
+
+/*___ Map View ___*/
+.view-event#map-event {
+	border-top: 1px solid #000;
+	padding: 10px 0 0;
+}
