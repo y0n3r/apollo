@@ -62,6 +62,7 @@
 		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
 		
 		<!-- Stylesheet includes to be concatenated into global.css, or included conditionally. Must load after Bootstrap. -->
+		<link href="/statics/alumni/global/css/core.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/typography.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/frame.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/style.css" rel="stylesheet">
