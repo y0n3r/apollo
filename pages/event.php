@@ -6,15 +6,14 @@ BREADCRUMB is not in the TEMPLATE
 		<!-- CQ COMPONENT: Breadcrumb -->
 		<div class="section breadcrumb">
 			<ul class="breadcrumb">
-				<li><a href="#">Home</a> <span class="divider">/</span></li>
-				<li><a href="#">Events</a></li>
+				<li><a href="#">Home</a> <span class="divider">></span></li>
+				<li>Events</li>
 			</ul>
 		</div>
 		<!-- END: Breadcrumb -->
 	</div>
 </div>
 
-[TERTIARY PAGE TEMPLATE. SEE SOURCE]
 <!--
 TEMPLATE NOTES: Tertiary Page
 Here is the markup for tertiary pages, without content for ease of integration.
@@ -70,7 +69,7 @@ Here is the markup for tertiary pages, without content for ease of integration.
 				</div>
 				<div class="row">
 					<div class="span11">
-						<div class="view-event" id="list-event">
+						<div class="view-event active" id="list-event">
 							<div class="list-item">
 								<div class="indicator-date"><span class="month">Mar</span><span class="date">12</span></div>
 								<div class="row">
@@ -142,5 +141,5 @@ Here is the markup for tertiary pages, without content for ease of integration.
 			<a class="more" href="">See More</a>
 		</div>
 		<!-- END: Block -->
-	<div><!-- /span4+1 -->
+	</div><!-- /span4+1 -->
 </div> <!-- /row -->

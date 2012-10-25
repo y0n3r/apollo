@@ -1,1 +1,2 @@
 .view-event { display: none; }
+.view-event.active { display: block; }

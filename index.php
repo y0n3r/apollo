@@ -8,7 +8,7 @@
 	function nav(){       
 		$nav = array(
 			"Home" => "homepage",
-			"Event" => "event",
+			"Events" => "event",
 			"Homecoming" => "homecoming",
 			"Profile" => "profile",
 			"Your Profile" => "your-profile"

@@ -47,11 +47,49 @@
 	position: absolute;
 	bottom: 0; left: 0;
 	background: #000;
-	background: rgba(0,0,0,.90);
+	background: rgba(0,0,0,0.70);
+	padding: 5px 5px 5px 0;
 }
 
-.carousel-thumbs ul.thumbnails {}
+.carousel-thumbs ul.thumbnails {
+	margin: 0;
+}
 
-.carousel-thumbs ul.thumbnails li {}
+.carousel-thumbs ul.thumbnails > li {
+	width: 104px;
+	margin-bottom: 0;
+	margin-left: 5px;
+}
 
+.carousel-thumbs .thumbnail {
+	padding: 0px;
+	border: 1px solid #000;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	position: relative;
+}
+.carousel-thumbs .thumbnail:hover {
+	cursor: pointer;
+}
 
+.carousel-thumbs .thumbnail > img { max-width: auto; }
+
+.carousel-thumbs .thumbnail h3 {
+	display: none;
+	font-size: 10px;
+	position: absolute; top: 0; left: 0;
+	background: #fff;
+	background: rgba(0,0,0,0.70);
+	margin: 0; padding: 0;
+	width: 102px; height: 53px;
+	text-align: center;
+	color: #fff;
+}

@@ -38,7 +38,7 @@ Here is the markup for the home page, without content for ease of integration.
 	<div class="span16">
 		<div id="myCarousel" class="carousel slide">
 			<div class="carousel-inner">
-				<div class="item active">
+				<div class="active item">
 					<img src="/dam/slide-01.jpg" alt="">
 					<div class="carousel-caption green">
 						<h4>First Thumbnail label</h4>
@@ -79,38 +79,33 @@ Here is the markup for the home page, without content for ease of integration.
 			<div class="carousel-thumbs">
 				<ul class="thumbnails">
 					<li class="span4">
-						<div class="thumbnail">
+						<div class="thumbnail" id="thumb-001">
 							<img src="/dam/slide-01-thumb.jpg" alt="">
 							<h3>Thumbnail label</h3>
-							<p>Thumbnail caption...</p>
 						</div>
 					</li>
 					<li class="span4">
-						<div class="thumbnail">
+						<div class="thumbnail" id="thumb-002">
 							<img src="/dam/slide-02-thumb.jpg" alt="">
 							<h3>Thumbnail label</h3>
-							<p>Thumbnail caption...</p>
 						</div>
 					</li>
 					<li class="span4">
-						<div class="thumbnail">
+						<div class="thumbnail" id="thumb-003">
 							<img src="/dam/slide-03-thumb.jpg" alt="">
 							<h3>Thumbnail label</h3>
-							<p>Thumbnail caption...</p>
 						</div>
 					</li>
 					<li class="span4">
-						<div class="thumbnail">
+						<div class="thumbnail" id="thumb-004">
 							<img src="/dam/slide-04-thumb.jpg" alt="">
 							<h3>Thumbnail label</h3>
-							<p>Thumbnail caption...</p>
 						</div>
 					</li>
 					<li class="span4">
-						<div class="thumbnail">
+						<div class="thumbnail" id="thumb-005">
 							<img src="/dam/slide-05-thumb.jpg" alt="">
 							<h3>Thumbnail label</h3>
-							<p>Thumbnail caption...</p>
 						</div>
 					</li>
 				</ul>
