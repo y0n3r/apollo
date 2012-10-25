@@ -219,12 +219,16 @@ Here is the markup for the home page, without content for ease of integration.
 				<!-- END CQ COMPONENT -->
 				
 				<!-- CQ COMPONENT: Search Block -->
-				<div class="section search-block">
+				<div class="section search-module">
 					<h3>Find Alumni</h3>
 					<ul class="nav nav-tabs">
 						<li class="active"><a href="#">By Name</a></li>
 						<li><a href="#">By Category</a></li>
 					</ul>
+					<form class="form-search">
+						<input type="text" class="input-medium">
+						<button type="submit" class="btn">></button>
+					</form>
 				</div>
 				<!-- END CQ COMPONENT -->
 			</div><!--/span-->

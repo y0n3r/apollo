@@ -10,7 +10,6 @@
 			"Home" => "homepage",
 			"Events" => "event",
 			"Homecoming" => "homecoming",
-			"Profile" => "profile",
 			"Your Profile" => "your-profile"
 		);
 		

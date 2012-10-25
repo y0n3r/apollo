@@ -143,8 +143,10 @@
 
 .benefits-discounts .interior ul li {
 	list-style: none;
-	padding: 0; margin: 0;
+	padding: 0 0 5px; margin: 0 0 10px;
+	border-bottom: 1px dotted #fff;
 }
+.benefits-discounts .interior ul li.last { border-bottom: 0; padding: 0; margin: 0; }
 
 .benefits-discounts .interior ul li a {
 	display: block;
@@ -155,6 +157,72 @@
 .benefits-discounts .interior ul li a h4 {
 	font-size: 14px; line-height: 1.0em;
 	margin: 0;
+}
+
+/* Search Module */
+.search-module { margin: 10px 0 0 }
+.search-module h3 {
+	margin: 0 0 10px; padding: 0;
+	font-size: 20px; line-height: 1.0em;
+}
+
+.search-module .nav {
+	margin: 0;
+}
+
+.search-module .nav li a { font-size: 14px; }
+
+.search-module .nav-tabs > li > a {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	line-height: 1.0em;
+	border: 1px solid transparent;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+.search-module .nav-tabs > .active > a, .search-module .nav-tabs > .active > a:hover {
+	color: #fff;
+	background-color: #0099cc;
+	border: 1px solid #0099cc;
+	border-bottom-color: transparent;
+	cursor: default;
+}
+
+.search-module form {
+	background: #0099cc;
+	padding: 5px;
+}
+
+.search-module .btn {
+	border-color: #C5C5C5;
+	border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+	display: inline-block;
+	padding: 4px 14px;
+	margin-bottom: 0;
+	font-size: 15px;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	color: #fff;
+	text-shadow: 0;
+	background-color: transparent;
+	background-image: none;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	border: 0px solid #BBB;
+	border-bottom-color: #A2A2A2;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
 
 
