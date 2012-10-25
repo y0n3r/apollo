@@ -129,6 +129,7 @@ nav#footer-social .nav-pills > li > a#phx-connect { background: transparent url(
 	display: inline-block;
 	margin: 0;
 	padding: 0;
+	vertical-align: top;
 }
 ._505 { width: 505px; }
 ._425 { width: 425px; }
