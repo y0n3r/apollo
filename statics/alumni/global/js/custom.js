@@ -30,7 +30,9 @@ $(document).ready(function(){
 	$('.carousel-thumbs .thumbnail').click(function(){
 		var slideID = $(this).attr('rel');
 		$('.carousel .item.active').removeClass('active');
+		$('.carousel-thumbs .thumbnail .active').removeClass('active');
 		$('.carousel .item[rel="'+slideID+'"]').addClass('active');
+		$(this).addClass('active');
 		$('.carousel').carousel('pause');
 	});
 });
