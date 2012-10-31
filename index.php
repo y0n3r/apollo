@@ -10,7 +10,8 @@
 			"Home" => "homepage",
 			"Events" => "event",
 			"Homecoming" => "homecoming",
-			"Your Profile" => "your-profile"
+			"Your Profile" => "your-profile",
+			"Components" => "components"
 		);
 		
 		$base = ($_REQUEST['page'] ? $_REQUEST['page'] : 'homepage');
