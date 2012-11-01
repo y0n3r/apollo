@@ -2,7 +2,7 @@
 <h6>*required</h6>
 
 <form name="your-profile" id="your-profile" action="#">
-	<div class="form-section _505 left">
+	<div class="form-section left">
 		<div class="component">
 			<header>
 				<h2>Personal Info</h2>
@@ -152,9 +152,9 @@
 				</ul>
 			</fieldset>
 		</div><!-- .component -->
-	</div><!-- .form-section._505.left -->	
+	</div><!-- .form-section.left -->	
 	
-	<div class="form-section _425 right">
+	<div class="form-section right">
 		<div class="component thumbnail">
 			<header>
 				<h2>Profile Photo</h2>
@@ -256,5 +256,5 @@
 				</ul>
 			</fieldset>
 		</div><!-- .component -->
-	</div><!-- .form-section._425.right -->
+	</div><!-- .form-section.right -->
 </form><!-- #your-profile -->
