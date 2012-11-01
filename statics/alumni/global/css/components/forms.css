@@ -1,12 +1,11 @@
 /*	Form Styles [YH]
 ---------------------*/
-._505 { width: 505px; }
-._425 { width: 425px; }
-.form-section._505.left { margin: 0 40px 0 0 !important; }
+.form-section.left { margin: 0 40px 0 0 !important; }
 .form-section ul li { margin-bottom: 13px; }
 .form-section input { margin-bottom: 0; }
 input[type="file"] { width: 50% }
 .form-section {
+	width: 48%;
 	display: inline-block;
 	margin: 0;
 	padding: 0;
