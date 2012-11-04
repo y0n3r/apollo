@@ -216,11 +216,11 @@
 				<ul class="unstyled">
 					<li>
 						<label for="password">*Create a Password</label>
-						<input type="text" name="password" id="password" required>
+						<input type="password" name="password" id="password" required>
 					</li>
 					<li>
 						<label for="password-confirm">*Confirm Password</label>
-						<input type="text" name="password-confirm" id="password-confirm" required>
+						<input type="password" name="password-confirm" id="password-confirm" required>
 					</li>
 				</ul>
 			</fieldset>
