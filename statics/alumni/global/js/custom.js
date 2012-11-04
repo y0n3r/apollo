@@ -35,4 +35,9 @@ $(document).ready(function(){
 		$(this).addClass('active');
 		$('.carousel').carousel('pause');
 	});
+
+	// Form controls.
+	$( ".form-section .signup" ).on( "click" , "a" , function() {
+		$( this ).parents( "form" ).submit();
+	});
 });
