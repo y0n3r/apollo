@@ -9,6 +9,7 @@
 		$nav = array(
 			"Home" => "homepage",
 			"Events" => "event",
+			"Get Involved" => "get-involved",
 			"Homecoming" => "homecoming",
 			"Your Profile" => "your-profile",
 			"Components" => "components",
