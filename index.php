@@ -11,7 +11,8 @@
 			"Events" => "event",
 			"Homecoming" => "homecoming",
 			"Your Profile" => "your-profile",
-			"Components" => "components"
+			"Components" => "components",
+			"Login" => "login"
 		);
 		
 		$base = ($_REQUEST['page'] ? $_REQUEST['page'] : 'homepage');
