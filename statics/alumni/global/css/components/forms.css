@@ -39,3 +39,31 @@ label.checkbox {
 	display: inline-block;
 	width: auto;
 }
+section#login {
+	max-width: 65%;
+	margin-bottom: 60px;
+}
+
+section#login h4, section#login p {
+	margin-bottom: 30px;
+}
+
+.small-form {
+	width: 270px;
+	display: inline-block;
+}
+
+.small-form-divider {
+	display: inline-block;
+}
+
+.small-form label {
+	display: block;
+	width: auto;
+	text-align: left;
+	margin: 0;
+}
+
+.small-form .signup {
+	margin-right: 50px;
+}
