@@ -256,5 +256,8 @@
 				</ul>
 			</fieldset>
 		</div><!-- .component -->
+		<div class="signup">
+			<a href="#">Update Profile</a>
+		</div><!-- .signup -->
 	</div><!-- .form-section.right -->
 </form><!-- #your-profile -->
