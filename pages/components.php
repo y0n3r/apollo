@@ -19,7 +19,8 @@ BREADCRUMB is not in the TEMPLATE
 			<!-- CQ COMPONENT: Chapter Events -->
 			<div class="section chapter-events">
 				<h2>Alumni Chapter events</h2>
-				{Dev: N/A}<br />
+				{Dev: <b>Yonas</b>}<br />
+				{Status: <b>IN PROGRESS</b>}
 				{Comp: chapters}
 			</div>
 			<!-- END: Chapter Events -->
