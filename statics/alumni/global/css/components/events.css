@@ -69,6 +69,9 @@
 	font-family: 'PhoenixSansMedium';
 }
 
+.view-event .list-item .details-wrap { display: none; }
+.view-event .list-item.active .details-wrap { display: block; }
+
 .view-event .list-item div[itemprop='description'] { margin: 0; }
 .view-event .list-item div.details { margin: 30px 0 0 0px; }
 .view-event .list-item div.event-social { margin: 10px 0 0 0px; }

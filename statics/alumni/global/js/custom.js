@@ -40,4 +40,12 @@ $(document).ready(function(){
 	$( ".form-section .signup" ).on( "click" , "a" , function() {
 		$( this ).parents( "form" ).submit();
 	});
+	
+	//___ Events ___//
+	// Accordion
+	$('.view-event h3 a').click(function(){
+		$('.view-event .list-item.active').removeClass('active');
+		$(this).parents('.list-item').addClass('active');
+		return false;
+	});
 });

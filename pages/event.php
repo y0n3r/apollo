@@ -82,7 +82,7 @@ Here is the markup for tertiary pages, without content for ease of integration.
 									</div>
 								</div>
 								
-								<div class="row">
+								<div class="row details-wrap">
 									<div class="span7 offset1">
 										<div itemprop="description">
 											<p>
@@ -132,6 +132,44 @@ Here is the markup for tertiary pages, without content for ease of integration.
 										<div class="signup"><a href="">Sign me up</a></div>
 									</div>
 								</div>
+								
+								<div class="row details-wrap">
+									<div class="span7 offset1">
+										<div itemprop="description">
+											<p>
+											Homecoming 2011 promises to be a fun and memorable event. University of Phoenix Western Washington campus invites alumni and a guest to an exclusive Pregame Mixer and Mariners games. Don't miss this great opportunity to celebrate and reconnect with fellow alumni as we cheer on the home team.
+											</p>
+											<p>
+											RSVP to reserve your seat today! Simply return to the ticket section listed above and click on the orange ‘Register’ button to complete the registration process. School was never this much fun. We can’t wait to see you there!
+											</p>
+										</div>
+										<div class="details">
+											<strong>Event details</strong><br />
+											<span itemprop="startDate">5:00pm Sign-in and registration</span><br />
+											5:00pm Food, fun, and networking<br />
+											7:00pm Game time!
+										</div>
+										<div class="event-social">
+											<a href=""><img src="/statics/alumni/global/img/icon-event_facebook.png" /></a>
+											<a href=""><img src="/statics/alumni/global/img/icon-event_twitter.png" /></a>
+											<a href=""><img src="/statics/alumni/global/img/icon-event_email.png" /></a>
+										</div>
+									</div>
+									
+									<div class="span3">
+										<div class="details-location" itemscope itemtype="http://data-vocabulary.org/Organization">
+											<img src="/dam/map-event-small.jpg" />
+											<p>
+											<strong><span itemprop="name">Bellevue Learning Center</span></strong><br />
+											<span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+												<span itemprop="street-address">223 18th St, Suite 1200</span><br />
+												<span itemprop="locality">Bellevue</span>, <span itemprop="region">WA</span> <span itemprop="postalcode">98034</span>
+											</span><br />
+											<span itemprop="url"><a href=""><strong>Get directions</strong></a></span>
+											</p>
+										</div>
+									</div>
+								</div>
 							</div><!-- END List Item -->
 							
 							<div class="list-item">
@@ -143,6 +181,44 @@ Here is the markup for tertiary pages, without content for ease of integration.
 											<h4 class="dateline">June 03, 2012, 10:00 a.m. - 5:00 p.m.</h4>
 										</div>
 										<div class="signup"><a href="">Sign me up</a></div>
+									</div>
+								</div>
+								
+								<div class="row details-wrap">
+									<div class="span7 offset1">
+										<div itemprop="description">
+											<p>
+											Homecoming 2011 promises to be a fun and memorable event. University of Phoenix Western Washington campus invites alumni and a guest to an exclusive Pregame Mixer and Mariners games. Don't miss this great opportunity to celebrate and reconnect with fellow alumni as we cheer on the home team.
+											</p>
+											<p>
+											RSVP to reserve your seat today! Simply return to the ticket section listed above and click on the orange ‘Register’ button to complete the registration process. School was never this much fun. We can’t wait to see you there!
+											</p>
+										</div>
+										<div class="details">
+											<strong>Event details</strong><br />
+											<span itemprop="startDate">5:00pm Sign-in and registration</span><br />
+											5:00pm Food, fun, and networking<br />
+											7:00pm Game time!
+										</div>
+										<div class="event-social">
+											<a href=""><img src="/statics/alumni/global/img/icon-event_facebook.png" /></a>
+											<a href=""><img src="/statics/alumni/global/img/icon-event_twitter.png" /></a>
+											<a href=""><img src="/statics/alumni/global/img/icon-event_email.png" /></a>
+										</div>
+									</div>
+									
+									<div class="span3">
+										<div class="details-location" itemscope itemtype="http://data-vocabulary.org/Organization">
+											<img src="/dam/map-event-small.jpg" />
+											<p>
+											<strong><span itemprop="name">Bellevue Learning Center</span></strong><br />
+											<span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+												<span itemprop="street-address">223 18th St, Suite 1200</span><br />
+												<span itemprop="locality">Bellevue</span>, <span itemprop="region">WA</span> <span itemprop="postalcode">98034</span>
+											</span><br />
+											<span itemprop="url"><a href=""><strong>Get directions</strong></a></span>
+											</p>
+										</div>
 									</div>
 								</div>
 							</div><!-- END List Item -->
