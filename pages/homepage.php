@@ -36,91 +36,63 @@ Here is the markup for the home page, without content for ease of integration.
 
 <div class="row">
 	<div class="span16">
-		<div id="myCarousel" class="carousel slide">
-			<div class="carousel-inner">
-				<div class="active item" rel="001">
-					<img src="/dam/slide-01.jpg" alt="">
-					<div class="carousel-caption green">
-						<div class="dateline">January/February 2012</div>
-						<h4><strong>The Happiness</strong> Issue</h4>
-						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
+		<ul id="ic-home" class="ic">
+			<li>
+				<img src="/dam/slide-01.jpg" width="967" height="334" alt="">
+				<p class="green">
+					<span class="green">
+						<span class="dateline">January/February 2012</span>
+						<span class="headline"><strong>The Happiness</strong> Issue</span>
+						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
 						<a href="" class="read-more">Read more about Michael's quest</a>
-					</div>
-				</div>
-				<div class="item" rel="002">
-					<img src="/dam/slide-02.jpg" alt="">
-					<div class="carousel-caption avocado">
-						<div class="dateline">January/February 2012</div>
-						<h4><strong>Something</strong> Bold</h4>
-						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
+					</span>
+				</p>
+			</li>
+			<li>
+				<img src="/dam/slide-02.jpg" width="967" height="334" alt="">
+				<p>
+					<span class="avocado">
+						<span class="dateline">January/February 2012</span>
+						<span class="headline"><strong>Something</strong> Bold</span>
+						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
 						<a href="" class="read-more">Read more about Michael's quest</a>
-					</div>
-				</div>
-				<div class="item" rel="003">
-					<img src="/dam/slide-03.jpg" alt="">
-					<div class="carousel-caption orange">
-						<div class="dateline">January/February 2012</div>
-						<h4>The Strength<strong> of Numbers</strong></h4>
-						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
+					</span>
+				</p>
+			</li>
+			<li>
+				<img src="/dam/slide-03.jpg" width="967" height="334" alt="">
+				<p>
+					<span class="orange">
+						<span class="dateline">January/February 2012</span>
+						<span class="headline">The Strength<strong> of Numbers</strong></span>
+						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
 						<a href="" class="read-more">Read more about Michael's quest</a>
-					</div>
-				</div>
-				<div class="item" rel="004">
-					<img src="/dam/slide-04.jpg" alt="">
-					<div class="carousel-caption red">
-						<div class="dateline">January/February 2012</div>
-						<h4>In <strong>My Defense</strong></h4>
-						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
+					</span>
+				</p>
+			</li>
+			<li>
+				<img src="/dam/slide-04.jpg" width="967" height="334" alt="">
+				<p>
+					<span class="red">
+						<span class="dateline">January/February 2012</span>
+						<span class="headline">In <strong>My Defense</strong></span>
+						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
 						<a href="" class="read-more">Read more about Michael's quest</a>
-					</div>
-				</div>
-				<div class="item" rel="005">
-					<img src="/dam/slide-05.jpg" alt="">
-					<div class="carousel-caption purple">
-						<div class="dateline">January/February 2012</div>
-						<h4><strong>Come</strong> About</h4>
-						<p>Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</p>
+					</span>
+				</p>
+			</li>
+			<li>
+				<img src="/dam/slide-05.jpg" width="967" height="334" alt="">
+				<p>
+					<span class="purple">
+						<span class="dateline">January/February 2012</span>
+						<span class="headline"><strong>Come</strong> About</span>
+						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
 						<a href="" class="read-more">Read more about Michael's quest</a>
-					</div>
-				</div>
-			</div>
-			<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-			<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-			<div class="carousel-thumbs">
-				<ul class="thumbnails">
-					<li class="span4">
-						<div class="thumbnail" id="thumb-001" rel="001">
-							<img src="/dam/slide-01-thumb.jpg" alt="">
-							<h3>The Happiness Issue</h3>
-						</div>
-					</li>
-					<li class="span4">
-						<div class="thumbnail" id="thumb-002" rel="002">
-							<img src="/dam/slide-02-thumb.jpg" alt="">
-							<h3>Something Bold</h3>
-						</div>
-					</li>
-					<li class="span4">
-						<div class="thumbnail" id="thumb-003" rel="003">
-							<img src="/dam/slide-03-thumb.jpg" alt="">
-							<h3>The Strength of Numbers</h3>
-						</div>
-					</li>
-					<li class="span4">
-						<div class="thumbnail" id="thumb-004" rel="004">
-							<img src="/dam/slide-04-thumb.jpg" alt="">
-							<h3>In My Defense</h3>
-						</div>
-					</li>
-					<li class="span4">
-						<div class="thumbnail" id="thumb-005" rel="005">
-							<img src="/dam/slide-05-thumb.jpg" alt="">
-							<h3>Come About</h3>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
+					</span>
+				</p>
+			</li>
+		</ul>
 		
 	</div>
 </div>

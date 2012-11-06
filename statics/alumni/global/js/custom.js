@@ -12,31 +12,34 @@ $(document).ready(function(){
 	});
 	
 	//___ Carousel ___//
-	$('.carousel').carousel();
-	//Center thumbnails
-	$('.carousel-thumbs').width( $('.carousel-thumbs').outerWidth() );
-	$('.carousel-thumbs').css('margin-left', ($('.carousel-thumbs').outerWidth()/2-70) );
-	$('.carousel-thumbs').slideDown();
-	
-	//Thumbnail hovers
-	$('.carousel-thumbs .thumbnail').mouseenter(function(){
-		$(this).children('h3').css('top','0');
-	});
-	$('.carousel-thumbs .thumbnail').mouseleave(function(){
-		$(this).children('h3').css('top','-60px');
-	});
-	
-	//Thumbnail click
-	$('.carousel-thumbs .thumbnail').click(function(){
-		var slideID = $(this).attr('rel');
-		$('.carousel .item.active').removeClass('active');
-		$('.carousel-thumbs .thumbnail .active').removeClass('active');
-		$('.carousel .item[rel="'+slideID+'"]').addClass('active');
-		$(this).addClass('active');
-		$('.carousel').carousel('pause');
+	$('#ic-home').infiniteCarousel({
+		transitionSpeed:600,
+		displayTime: 6000,
+		displayProgressRing: true,
+		progressRingColorOpacity: '0,0,0,.9',
+		progressRingBackgroundOn: false,
+		progressRingBackgroundColorOpacity: '255,255,255,.5',
+		thumbnailType: 'images',
+		easeLeft: 'linear',
+		easeRight:'linear',
+		imagePath: '/statics/alumni/global/img/plugins/carousel/',
+		inView: 1,
+		margin: 0,
+		advance: 1,
+		customClass: '',
+		showControls: true,
+		autoHideCaptions: false,
+		autoPilot: true,
+		prevNextInternal: true,
+		internalThumbnails: true,
+		enableKeyboardNav: true,
+		onSlideStart: function(){},
+		onSlideEnd: function(){},
+		onPauseClick: function(){},
+		onPlayClick: function(){}
 	});
 
-	// Form controls.
+	//___ Form Controls ___//
 	$( ".form-section .signup" ).on( "click" , "a" , function() {
 		$( this ).parents( "form" ).submit();
 	});
