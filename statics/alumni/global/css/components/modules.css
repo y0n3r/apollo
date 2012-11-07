@@ -1,38 +1,3 @@
-/* Homepage Modules */
-.news-ticker {
-	overflow: hidden;
-	margin: 20px 0;
-}
-.news-ticker.section { display: block; }
-.news-ticker .controls { float: left; margin-right: 15px; }
-.news-ticker .controls a {
-	display: block;
-	width: 23px; height: 25px;
-	text-indent: -5000px;
-	background-repeat: no-repeat;
-	background-image: url('../../img/sprite_ticker-control.png');
-}
-.news-ticker .controls a.prev { background-position: 0 0; margin-bottom: 1px; }
-.news-ticker .controls a.next { background-position: 0 -78px; }
-
-.news-ticker .item { float: left; overflow: hidden; }
-
-.news-ticker .item img,
-.news-ticker .item .ticker-text {
-	float: left;
-}
-.news-ticker .item .ticker-text {
-	margin: 0 15px 0;
-}
-
-.news-ticker .item .ticker-text h3,
-.news-ticker .item .ticker-text h4 {
-	margin: 0;
-	line-height: 1em;
-}
-.news-ticker .item .ticker-text h3 { font-size: 22px; margin-bottom: 5px; }
-.news-ticker .item .ticker-text h4 { font-size: 16px; }
-
 /* Resources */
 .resources {
 	background: #851782;

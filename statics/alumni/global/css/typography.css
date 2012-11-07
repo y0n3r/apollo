@@ -147,3 +147,13 @@ body { font-family: 'PhoenixSansRegular'; }
 strong { font-family: 'PhoenixSansMedium'; }
 em { font-family: 'PhoenixSansRegularItalic'; }
 strong em, em strong { font-family: 'PhoenixSansBoldItalic'; }
+
+
+/*//___________________________________________________________________//*/
+
+.subtitle.opt-01 h4 {
+	font-family: 'PhoenixSansMedium';
+	font-size: 30px;
+	padding: 0 0 10px; margin: 0 0 10px;
+	border-bottom: 1px solid #000;
+}

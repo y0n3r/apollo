@@ -36,82 +36,96 @@ Here is the markup for the home page, without content for ease of integration.
 
 <div class="row">
 	<div class="span16">
-		<ul id="ic-home" class="ic">
-			<li>
-				<img src="/dam/slide-01.jpg" width="967" height="334" alt="">
-				<p class="green">
-					<span class="green">
-						<span class="dateline">January/February 2012</span>
-						<span class="headline"><strong>The Happiness</strong> Issue</span>
-						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
-						<a href="" class="read-more">Read more about Michael's quest</a>
-					</span>
-				</p>
-			</li>
-			<li>
-				<img src="/dam/slide-02.jpg" width="967" height="334" alt="">
-				<p>
-					<span class="avocado">
-						<span class="dateline">January/February 2012</span>
-						<span class="headline"><strong>Something</strong> Bold</span>
-						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
-						<a href="" class="read-more">Read more about Michael's quest</a>
-					</span>
-				</p>
-			</li>
-			<li>
-				<img src="/dam/slide-03.jpg" width="967" height="334" alt="">
-				<p>
-					<span class="orange">
-						<span class="dateline">January/February 2012</span>
-						<span class="headline">The Strength<strong> of Numbers</strong></span>
-						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
-						<a href="" class="read-more">Read more about Michael's quest</a>
-					</span>
-				</p>
-			</li>
-			<li>
-				<img src="/dam/slide-04.jpg" width="967" height="334" alt="">
-				<p>
-					<span class="red">
-						<span class="dateline">January/February 2012</span>
-						<span class="headline">In <strong>My Defense</strong></span>
-						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
-						<a href="" class="read-more">Read more about Michael's quest</a>
-					</span>
-				</p>
-			</li>
-			<li>
-				<img src="/dam/slide-05.jpg" width="967" height="334" alt="">
-				<p>
-					<span class="purple">
-						<span class="dateline">January/February 2012</span>
-						<span class="headline"><strong>Come</strong> About</span>
-						<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
-						<a href="" class="read-more">Read more about Michael's quest</a>
-					</span>
-				</p>
-			</li>
-		</ul>
-		
+		<!-- CQ COMPONENT: Carousel, Homepage -->
+		<div class="section carousel">
+			<ul id="ic-home">
+				<li>
+					<img src="/dam/slide-01.jpg" width="967" height="334" alt="">
+					<p class="green">
+						<span class="green">
+							<span class="dateline">January/February 2012</span>
+							<span class="headline"><strong>The Happiness</strong> Issue</span>
+							<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
+							<a href="" class="read-more">Read more about Michael's quest</a>
+						</span>
+					</p>
+				</li>
+				<li>
+					<img src="/dam/slide-02.jpg" width="967" height="334" alt="">
+					<p>
+						<span class="avocado">
+							<span class="dateline">January/February 2012</span>
+							<span class="headline"><strong>Something</strong> Bold</span>
+							<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
+							<a href="" class="read-more">Read more about Michael's quest</a>
+						</span>
+					</p>
+				</li>
+				<li>
+					<img src="/dam/slide-03.jpg" width="967" height="334" alt="">
+					<p>
+						<span class="orange">
+							<span class="dateline">January/February 2012</span>
+							<span class="headline">The Strength<strong> of Numbers</strong></span>
+							<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
+							<a href="" class="read-more">Read more about Michael's quest</a>
+						</span>
+					</p>
+				</li>
+				<li>
+					<img src="/dam/slide-04.jpg" width="967" height="334" alt="">
+					<p>
+						<span class="red">
+							<span class="dateline">January/February 2012</span>
+							<span class="headline">In <strong>My Defense</strong></span>
+							<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
+							<a href="" class="read-more">Read more about Michael's quest</a>
+						</span>
+					</p>
+				</li>
+				<li>
+					<img src="/dam/slide-05.jpg" width="967" height="334" alt="">
+					<p>
+						<span class="purple">
+							<span class="dateline">January/February 2012</span>
+							<span class="headline"><strong>Come</strong> About</span>
+							<span class="copy">Michael Johnson knows what it means to overcome challenges. The CEO of the Boys & Girls Club of Dane County is devoted to helping Wisconsin children keep their lives on track.</span>
+							<a href="" class="read-more">Read more about Michael's quest</a>
+						</span>
+					</p>
+				</li>
+			</ul>
+		</div>
 	</div>
 </div>
 
 <div class="row">
 	<div class="span16">
-		<!-- CQ COMPONENT: News Ticker -->
-		<div class="section news-ticker">
-			<div class="controls">
-				<a class="prev">Prev</a>
-				<a class="next">Next</a>
-			</div>
-			<div class="item">
-				<img src="/dam/ticker-01.jpg" />
-				<div class="ticker-text">
-					<h3>Step up your game:</h3>
-					<h4>How a coach can <a href="#">boost your career</a>.</h4>
-				</div>
-			</div>
+		<!-- CQ COMPONENT: Carousel, News Ticker -->
+		<div class="section carousel">
+			<ul id="ic-news-ticker">
+				<li>
+					<img src="/dam/ticker-01-test.jpg" width="385" height="51" />
+					<p>
+						<span class="title">Step up your game:</span>
+						<span class="subtitle">How a coach can <a href="#">boost your career</a>.</span>
+					</p>
+				</li>
+				<li>
+					<img src="/dam/ticker-02-test.jpg" width="385" height="51" />
+					<p>
+						<span class="title">Clever dressing:</span>
+						<span class="subtitle">Autumn fashion <a href="#">hot list</a>.</span>
+					</p>
+				</li>
+				<li>
+					<img src="/dam/ticker-03-test.jpg" width="385" height="51" />
+					<p>
+						<span class="title">Get on out:</span>
+						<span class="subtitle">Find yourself in <a href="#">the great outdoors</a>.</span>
+					</p>
+				</li>
+			</ul>
 		</div>
 		<!-- END CQ COMPONENT -->
 	</div><!--/span-->
