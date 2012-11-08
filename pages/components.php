@@ -17,14 +17,92 @@ BREADCRUMB is not in the TEMPLATE
 
 <div class="row">
 	<div class="span11">
-			<!-- CQ COMPONENT: Chapter Events -->
-			<div class="section chapter-events">
-				<h2>Alumni Chapter events</h2>
-				{Dev: <b>YONAS</b>}<br />
-				{Status: <b>IN PROGRESS</b>}<br>
-				{Comp: chapters}
-			</div>
-			<!-- END: Chapter Events -->
+			<section id="alumni-chapter-events">
+	<img class="banner" src="../statics/alumni/global/img/sandbox/banner/alumni-chapter-events.png">
+	<table>
+		<thead>
+			<tr>
+				<th>Chapter City</th>
+				<th>State</th>
+				<th>Events</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<img src="../statics/alumni/global/img/sandbox/thumb/50x50_1.jpg">
+					<a href="#">Augusta Alumni Chapter</a>
+					<span class="chapter-info">Founded May 21, 2012 | 89 Members</span>
+				</td>
+				<td><b>GA</b></td>
+				<td>
+					<a href="#">Pig Roast</a>
+					<span class="chapter-info">May 21, 2012</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../statics/alumni/global/img/sandbox/thumb/50x50_2.jpg">
+					<a href="#">Baton Rouge Alumni Chapter</a>
+					<span class="chapter-info">Founded May 21, 2012 | 89 Members</span>
+				</td>
+				<td><b>LA</b></td>
+				<td>
+					<a href="#">Homecoming Dance</a>
+					<span class="chapter-info">May 21, 2012</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../statics/alumni/global/img/sandbox/thumb/50x50_3.jpg">
+					<a href="#">Oahu Alumni Chapter</a>
+					<span class="chapter-info">Founded May 21, 2012 | 89 Members</span>
+				</td>
+				<td><b>HI</b></td>
+				<td>
+					<a href="#">Surf Contest</a>
+					<span class="chapter-info">May 21, 2012</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../statics/alumni/global/img/sandbox/thumb/50x50_4.jpg">
+					<a href="#">Cumberland Alumni Chapter</a>
+					<span class="chapter-info">Founded May 21, 2012 | 89 Members</span>
+				</td>
+				<td><b>MD</b></td>
+				<td>
+					<a href="#">Square Dance</a>
+					<span class="chapter-info">May 21, 2012</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../statics/alumni/global/img/sandbox/thumb/50x50_5.jpg">
+					<a href="#">Arlington Alumni Chapter</a>
+					<span class="chapter-info">Founded May 21, 2012 | 89 Members</span>
+				</td>
+				<td><b>VA</b></td>
+				<td>
+					<a href="#">Bar Crawl</a>
+					<span class="chapter-info">May 21, 2012</span>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src="../statics/alumni/global/img/sandbox/thumb/50x50_6.jpg">
+					<a href="#">Pittsburgh Alumni Chapter</a>
+					<span class="chapter-info">Founded May 21, 2012 | 89 Members</span>
+				</td>
+				<td><b>PA</b></td>
+				<td>
+					<a href="#">Steelers Game</a>
+					<span class="chapter-info">May 21, 2012</span>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</section><!-- #alumni-chapter-events -->
 			
 			<!-- CQ COMPONENT: Opportunities and Support -->
 			<div class="section opps-support">
@@ -158,9 +236,60 @@ BREADCRUMB is not in the TEMPLATE
 			
 			<!-- CQ COMPONENT: FAQ -->
 			<div class="section faq">
-				<h2>FAQ</h2>
-				{Dev: N/A}<br />
-				{Comp: mentor program}
+				<h2>Frequently asked questions</h2>
+				<div class="faq-item">
+					<p class="question">
+					I want to mentor a student, but I don't have a lot of time right now.
+					</p>
+					<p class="answer">
+					We have three levels of mentoring that alumni can indicate, and students can request: a one-time conversation, monthly meetings or weekly meetings.
+					</p>
+				</div>	
+				<div class="faq-item">
+					<p class="question">
+					How is mentoring conducted?
+					</p>
+					<p class="answer">
+					Mentors and mentees can meet face-to-face, via email, on the phone or a combination of all three.
+					</p>
+				</div>
+				<div class="faq-item">
+					<p class="question">
+					How long is the average mentoring commitment?
+					</p>
+					<p class="answer">
+					Mentoring can take place on a monthly or weekly basis. Six months is the recommend duration.
+					</p>
+				</div>
+				<div class="faq-item">
+					<p class="question">
+					I have never been a mentor before. How do I do this?
+					</p>
+					<p class="answer">
+					Once you are matched with a mentee, the Alumni Association will provide you with a toolkit designed to make the mentoring process as successful as possible. The toolkit includes recommendations on:
+					<ul>
+						<li>How best to get to know your mentee</li>
+						<li>Developing a personalized Mentoring Agreement</li>
+						<li>Setting and formalizing goals in a Mentor Project form</li>
+					</ul>
+					</p>
+				</div>
+				<div class="faq-item">
+					<p class="question">
+					How are alumni and students matched?
+					</p>
+					<p class="answer">
+					We will take into account time availability, the mentoring format you prefer (phone, email or face to face), the geographic area in which you live and the academic program of mentor and mentee.
+					</p>
+				</div>
+				<div class="faq-item">
+					<p class="question">
+					How long does it take to get matched?
+					</p>
+					<p class="answer">
+					It may take several weeks before you are matched with a mentor or mentee.
+					</p>
+				</div>
 			</div>
 			<!-- END: FAQ -->
 			
