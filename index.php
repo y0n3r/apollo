@@ -72,6 +72,7 @@
 		<link href="/statics/alumni/global/css/components/carousel.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/events.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/forms.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/components/photos.css" rel="stylesheet">
 	</head>
 
 	<body>
@@ -107,9 +108,7 @@
 			</div>
 		</header>
 
-		<div class="container">
-			<? include_once($_SERVER['DOCUMENT_ROOT'].'/pages/'.$inclPage.'.php'); ?>
-		</div><!--/.fluid-container-->
+		<? include_once($_SERVER['DOCUMENT_ROOT'].'/pages/'.$inclPage.'.php'); ?>
 		
 		<footer>
 			<div class="container">

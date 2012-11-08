@@ -1,3 +1,4 @@
+<div class="container">
 <!--
 BREADCRUMB is not in the TEMPLATE
 -->
@@ -183,3 +184,4 @@ BREADCRUMB is not in the TEMPLATE
 		<!-- END: Block -->
 	</div><!-- /span4+1 -->
 </div> <!-- /row -->
+</div><!--/.container-->

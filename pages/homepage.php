@@ -1,3 +1,4 @@
+<div class="container">
 <!--
 TEMPLATE NOTES: Home Page
 Here is the markup for the home page, without content for ease of integration.
@@ -221,3 +222,4 @@ Here is the markup for the home page, without content for ease of integration.
 		</div><!--/row-->
 	</div><!--/span-->
 </div><!--/row-->
+</div><!--/.container-->

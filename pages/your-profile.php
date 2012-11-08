@@ -1,3 +1,4 @@
+<div class="container">
 <h1>Your profile</h1>
 <h6>*required</h6>
 
@@ -261,3 +262,4 @@
 		</div><!-- .signup -->
 	</div><!-- .form-section.right -->
 </form><!-- #your-profile -->
+</div><!--/.container-->

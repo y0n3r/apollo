@@ -1,3 +1,4 @@
+<div class="container">
 <section id="alumni-chapter-events">
 	<img class="banner" src="../statics/alumni/global/img/sandbox/banner/alumni-chapter-events.png">
 	<table>
@@ -84,3 +85,4 @@
 		</tbody>
 	</table>
 </section><!-- #alumni-chapter-events -->
+</div><!--/.container-->

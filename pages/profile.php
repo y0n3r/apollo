@@ -1,3 +1,4 @@
+<div class="container">
 [FORM PAGE TEMPLATE. SEE SOURCE]
 <!--
 TEMPLATE NOTES: Form Pages
@@ -79,3 +80,4 @@ Form pages are a little different. Just use a single parsys.
 		</form>
 	</div><!-- .form-area.right -->
 </div><!-- #page-profile -->
+</div><!--/.container-->

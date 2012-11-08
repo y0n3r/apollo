@@ -1,3 +1,4 @@
+<div class="container">
 <!--
 BREADCRUMB is not in the TEMPLATE
 -->
@@ -270,3 +271,4 @@ Here is the markup for tertiary pages, without content for ease of integration.
 		<!-- END: Block -->
 	</div><!-- /span4+1 -->
 </div> <!-- /row -->
+</div><!--/.container-->

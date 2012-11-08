@@ -1,3 +1,4 @@
+<div class="container">
 <h1>Update your profile</h1>
 
 <section id="login">
@@ -44,3 +45,4 @@
 		</form><!-- #login-irn -->
 	</section><!-- .small-form -->
 </section><!-- #login -->
+</div><!--/.container-->
