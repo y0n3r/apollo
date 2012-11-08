@@ -116,11 +116,108 @@ BREADCRUMB is not in the TEMPLATE
 			<div class="section heros">
 				<h2>Hero Samples</h2>
 				<h3>Mentor Program</h3>
+				<!-- CQ COMPONENT: Hero -->
+				<!-- This option uses the full 16 columns, and adds a 5 column "hero-extra" area; the main part of the hero is 11 columns. It also has a main hero image, with a colored overlay on it. -->
+				<div class="row">
+					<div class="span16">
+						<div class="hero-unit opt">
+							<div class="row">
+								<div class="span11">
+									<img src="/dam/hero-mentor.jpg" />
+									<!-- The overlay has two options: 01 is "hanging" from the top edge, pulled off the left edge a bit. 02 is flush left and full height. -->
+									<div class="hero-overlay opt-01 red">
+										<h3>Pass it on</h3>
+										<p>University of Phoenix started the Alumni Mentor Program to enrich the experiences and careers of students and graduates alike.</p>
+									</div>
+								</div><!--/span-->
+								
+								<div class="span5">
+									<div class="hero-extra">
+										<h4>A little guidance goes a long way.</h4>
+										<p>The best advice comes from those who've been there. Whether you’re looking for career assistance or for the opportunity to share your expertise, the Alumni Mentor Program is a great way to connect.</p>
+										<p><a href="">Become a mentor</a></p>
+										<p><a href="">Request a mentor</a></p>
+									</div>
+								</div><!--/span-->
+							</div><!--/row-->
+						</div>
+					</div><!--/span-->
+				</div><!--/row-->
+				<!-- END CQ COMPONENT -->
+
 				<h3>Get Involved</h3>
+				<!-- CQ COMPONENT: Hero -->
+				<!-- This one just has an 11 column main area, and no extra. Intended to be on a page where there is a sidebar. -->
+				<div class="row">
+					<div class="span11">
+						<div class="hero-unit opt">
+							<!-- We repeat the row and span here, with no change in value, to facilitate a CQ component. -->
+							<div class="row">
+								<div class="span11">
+									<img src="/dam/hero-involved.jpg" />
+									<div class="hero-overlay opt-02 avocado">
+										<h3>Your connection to careers</h3>
+										<p>Get involved and keep in touch with other graduates in your field. Take advantage of networking opportunities at events happening now in your area.</p>
+										<p><a class="read-more" href="">Register now</a></p>
+									</div>
+								</div><!--/span-->
+							</div><!--/row-->
+						</div>
+					</div><!--/span-->
+				</div><!--/row-->
+				<!-- END CQ COMPONENT -->
+				
+						
 				<h3>Benefits & Discounts</h3>
-				{Dev: N/A}<br />
-				{Comp: mentor program, homecoming, get involved, benefits and discounts}<br />
-				Do we just need one off heros?
+				<!-- CQ COMPONENT: Hero -->
+				<!-- This option also uses the full 16 columns, but adds a *6* column "hero-extra" area; the main part of the hero is only 10 columns. Also, this one has no main image, but just an overlay. The extra has two special boxes in it. -->
+				<div class="row">
+					<div class="span16">
+						<div class="hero-unit opt">
+							<div class="row">
+								<div class="span10">
+									<!-- The overlay has two options: 01 is "hanging" from the top edge, pulled off the left edge a bit. 02 is flush left and full height. -->
+									<div class="hero-overlay opt-03 green">
+										<h3>You earned the degree.<br />You deserve the discounts.</h3>
+										<div class="media">
+											<a class="pull-right" href="#">
+												<img class="media-object" src="/dam/video-01.jpg">
+											</a>
+											<div class="media-body">
+												<p>Enjoy savings on everything from insurance to electronics at the University Marketplace.</p>
+												<p><a class="read-more" href="">See more deals</a></p>
+											</div>
+										</div>
+											
+									</div>
+								</div><!--/span-->
+								
+								<div class="span6">
+									<div class="hero-extra spec">
+										<div class="offer">
+											<img src="/dam/offer-shoes.jpg" />
+											<h4 class="green">University Marketplace Foot Locker  |  Save 30%</h4>
+											<div class="overlay">
+												<p>Save 30% on your next pair of adidas cross-trainers.</p>
+												<p><a href="">View Deal</a></p>
+											</div>
+										</div>
+										
+										<div class="offer">
+											<img src="/dam/offer-food.jpg" />
+											<h4 class="green">Spot ON Deal Restaurant.com  |  Save 20%</h4>
+											<div class="overlay">
+												<p>Save 30% on your next meal.</p>
+												<p><a href="">View Deal</a></p>
+											</div>
+										</div>
+									</div>
+								</div><!--/span-->
+							</div><!--/row-->
+						</div>
+					</div><!--/span-->
+				</div><!--/row-->
+				<!-- END CQ COMPONENT -->
 			</div>
 			<!-- END: Heros -->
 			

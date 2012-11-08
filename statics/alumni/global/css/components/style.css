@@ -1,3 +1,19 @@
+/* Use for overlay colors */
+.orange { background: #FF6600; background: rgba(255, 102, 0, 0.90); color: #fff; }
+.orange a { color: #fff; }
+.red { background: #D7234A; background: rgba(215, 35, 74, 0.90); color: #fff; }
+.red a { color: #fff; }
+.purple { background: #851782; background: rgba(133, 23, 130, 0.90); color: #fff; }
+.purple a { color: #fff; }
+.blue { background: #0099CC; background: rgba(0, 153, 204, 0.90); color: #fff; }
+.blue a { color: #fff; }
+.pale-blue { background: #A3DBE8; background: rgba(163, 219, 232, 0.90); color: #000; }
+.pale-blue a { color: #000; }
+.green { background: #4FAC1C; background: rgba(79, 172, 28, 0.90); color: #fff; }
+.green a { color: #fff; }
+.avocado { background: #B7CD00; background: rgba(183, 205, 0, 0.90); color: #000; }
+.avocado a { color: #000; }
+
 /*	Global component styles. [YH]
 ------------------------------------*/
 .component {
@@ -29,7 +45,94 @@
 	display: inline-block;
 }
 
+/*	Different Hero Styles
+------------------------------------*/
+/* Layout Options Global */
+.hero-unit.opt { padding: 0; background: transparent; position: relative; }
 
+.hero-unit > .row > .span {  }
+
+.hero-overlay { position: absolute; }
+.hero-overlay.opt-01 {
+	top: 0; left: 30px;
+	width: 276px;
+	padding: 30px 20px 15px;
+}
+.hero-overlay.opt-02 {
+	top: 0; left: 0;
+	width: 288px; height: 305px;
+	padding: 30px 20px 15px;
+}
+.hero-overlay.opt-03 {
+	top: 0; left: 0;
+	width: 555px; height: 262px;
+	padding: 30px 20px 15px;
+}
+
+.hero-overlay h3 { margin: 0 0 15px; font-size: 30px; font-family: 'PhoenixSansMedium'; line-height: 1.2em; }
+.hero-overlay p { margin: 0 0 15px; }
+
+.hero-overlay a.read-more {
+	margin: 10px 0 0;
+	padding: 2px 25px 3px 0;
+	background: transparent url('../../img/arrow_signup.png') 100% 0 no-repeat;
+	font-size: 16px;
+	font-family: 'PhoenixSansMedium';
+}
+
+.hero-extra {
+	border: 1px solid #d5d6d2;
+	border-width: 1px 0;
+	padding: 30px 0;
+	height: 290px;
+}
+.hero-extra.spec { border: 0; padding: 0; }
+
+
+.hero-extra h4 {
+	font-family: 'PhoenixSansMedium';
+	font-size: 18px;
+	margin: 0 0 10px;
+}
+.hero-extra p {
+	font-size: 16px;
+}
+.hero-extra p a {
+	font-family: 'PhoenixSansMedium';
+	font-size: 20px;
+	padding: 0 25px 0 0;
+	background: transparent url('../../img/arrow_signup.png') 100% 2px no-repeat;
+}
+
+.hero-extra .offer {
+	position: relative;
+	overflow: hidden;
+}
+.hero-extra .offer:first-child {
+	margin-bottom: 23px;
+}
+
+.hero-extra .offer h4 {
+	position: absolute; top: 0; left: 0; right: 0;
+	padding: 2px 4px;
+	font-size: 14px;
+	font-family: 'PhoenixSansLight';
+}
+
+.hero-extra .overlay {
+	height: 105px;
+	max-height: 105px;
+	overflow: hidden;
+	background: #000;
+	background: rgba(0,0,0,0.8);
+	padding: 20px 30px;
+	position: absolute; left: 0; right: 0; bottom: -145px;
+	font-size: 17px;
+	color: #fff;
+	font-family: 'PhoenixSansMedium';
+	cursor: pointer;
+}
+.hero-extra .overlay a { color: #fff; }
 
 /*	Homecoming
 ------------------------------------*/

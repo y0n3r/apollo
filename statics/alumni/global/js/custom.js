@@ -161,4 +161,13 @@ $(document).ready(function(){
 		$(this).parents('.list-item').addClass('active');
 		return false;
 	});
+	
+	
+	//___ Offer Hovers ___//
+	$('.hero-extra .offer').mouseenter(function(){
+		$(this).find('.overlay').css('bottom','-28px');
+	});
+	$('.hero-extra .offer').mouseleave(function(){
+		$(this).find('.overlay').css('bottom','-145px');
+	});
 });
