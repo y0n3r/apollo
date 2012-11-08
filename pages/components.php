@@ -107,7 +107,7 @@ BREADCRUMB is not in the TEMPLATE
 			<!-- CQ COMPONENT: Opportunities and Support -->
 			<div class="section opps-support">
 				<h2>Opportunities and support</h2>
-				{Dev: N/A}<br />
+				{Dev: Ambrose}<br />
 				{Comp: scholarships}
 			</div>
 			<!-- END: Opportunities and Support -->
