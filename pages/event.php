@@ -62,8 +62,8 @@ Here is the markup for tertiary pages, without content for ease of integration.
 								</select>
 							</form>
 							<div class="toggle-view">
-								<a href="" rel="event" id="list-event" class="active">List</a>
-								<a href="" rel="event" id="map-event">Map</a>
+								<a href="" rel="event" name="list-event" class="active">List</a>
+								<a href="" rel="event" name="map-event">Map</a>
 							</div>
 						</div><!--/Tools -->
 					</div>

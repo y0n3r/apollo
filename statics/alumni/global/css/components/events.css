@@ -21,10 +21,10 @@
 	background-image: url('../../img/sprite-event-toggle.png');
 	background-repeat: no-repeat;
 }
-.event-tools .toggle-view a#list-event { background-position: 100% 2px; }
-.event-tools .toggle-view a#list-event.active { background-position: 100% -28px; }
-.event-tools .toggle-view a#map-event { background-position: 100% -60px; }
-.event-tools .toggle-view a#map-event.active { background-position: 100% -90px; }
+.event-tools .toggle-view a[name='list-event'] { background-position: 100% 2px; } 
+.event-tools .toggle-view a[name='list-event'].active { background-position: 100% -28px; } 
+.event-tools .toggle-view a[name='map-event'] { background-position: 100% -60px; } 
+.event-tools .toggle-view a[name='map-event'].active { background-position: 100% -90px; } 
 
 .view-event { display: none; }
 .view-event.active { display: block; margin: 0 0 20px; }

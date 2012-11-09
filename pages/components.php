@@ -107,8 +107,55 @@ BREADCRUMB is not in the TEMPLATE
 			<!-- CQ COMPONENT: Opportunities and Support -->
 			<div class="section opps-support">
 				<h2>Opportunities and support</h2>
-				{Dev: Ambrose}<br />
-				{Comp: scholarships}
+				
+				<!-- CQ COMPONENT: Subtitle, Option 01 -->
+				<div class="section subtitle opt-01">
+					<h4>Opportunities and support</h4>
+				</div>
+				<!-- END CQ COMPONENT: Subtitle -->
+				
+				
+				<!-- CQ COMPONENT: Opps -->
+				<div class="section opps">
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img class="media-object" src="http://placehold.it/153x80">
+						</a>
+						<div class="media-body">
+							<h5 class="media-heading">Paying It Forward&reg; Scholarship</h5>
+							<p>Alumni are given the chance to nominate someone they know to pursue a bachelor’s degree at University of Phoenix. Thirty deserving nominees are selected and awarded full-tuition scholarships every year. Nominate and change someone’s life today.</p>
+						</div>
+					</div>
+				</div>
+				<!-- END CQ COMPONENT: Subtitle -->
+				
+				<!-- CQ COMPONENT: Opps -->
+				<div class="section opps">
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img class="media-object" src="http://placehold.it/153x80">
+						</a>
+						<div class="media-body">
+							<h5 class="media-heading">Forever a Phoenix® Scholarship</h5>
+							<p>University of Phoenix and University of Phoenix Alumni Association have partnered to offer alumni the opportunity to continue their educations through either a bachelor’s or a master’s degree program of their choice. Six scholarships are awarded to recipients who may attend on campus or through online programs.</p>
+						</div>
+					</div>
+				</div>
+				<!-- END CQ COMPONENT: Subtitle -->
+				
+				<!-- CQ COMPONENT: Opps -->
+				<div class="section opps">
+					<div class="media">
+						<a class="pull-left" href="#">
+							<img class="media-object" src="http://placehold.it/153x80">
+						</a>
+						<div class="media-body">
+							<h5 class="media-heading">UOPX Alumni Scholarship</h5>
+							<p>Each year, 25 scholarships are presented to alumni who are enrolled in a bachelor or master degree program at the University. The associate, bachelor and master alumni recipients are granted $4,000 each to contribute to their educational pursuits.</p>
+						</div>
+					</div>
+				</div>
+				<!-- END CQ COMPONENT: Subtitle -->
 			</div>
 			<!-- END: Opportunities and Support -->
 			

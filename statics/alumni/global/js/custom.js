@@ -3,8 +3,7 @@ $(document).ready(function(){
 		$('.view-event.active').hide();
 		$('.toggle-view a.active').removeClass('active');
 		$('.view-event.active').removeClass('active');
-		var view = $(this).attr('id');
-		console.log(view);
+		var view = jQuery(this).attr('name');
 		$('.view-event#'+view).show();
 		$(this).addClass('active');
 		$('.view-event#'+view).addClass('active');
@@ -165,7 +164,7 @@ $(document).ready(function(){
 	
 	//___ Offer Hovers ___//
 	$('.hero-extra .offer').mouseenter(function(){
-		$(this).find('.overlay').css('bottom','-28px');
+		$(this).find('.overlay').css('bottom','-25px');
 	});
 	$('.hero-extra .offer').mouseleave(function(){
 		$(this).find('.overlay').css('bottom','-145px');
