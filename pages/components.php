@@ -17,9 +17,12 @@ BREADCRUMB is not in the TEMPLATE
 
 <div class="row">
 	<div class="span11">
-			<section id="alumni-chapter-events">
+	<section id="alumni-chapter-events">
 	<img class="banner" src="../statics/alumni/global/img/sandbox/banner/alumni-chapter-events.png">
 	<table>
+		<col class="first-column" width="56%">
+		<col class="second-column" width="10%">
+		<col class="third-column" width="34%">
 		<thead>
 			<tr>
 				<th>Chapter City</th>
