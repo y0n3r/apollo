@@ -98,3 +98,33 @@
 #alumni-chapter-events .banner {
 	margin-bottom: 15px;
 }
+
+#alumni-chapter-events table {
+	width: 100%;
+}
+
+#alumni-chapter-events table th {
+	text-align: left;
+	border-top: 1px solid #000 !important;
+}
+
+#alumni-chapter-events table tr {
+	border-top: 1px solid #d5d6d2;
+}
+
+#alumni-chapter-events table tr td, #alumni-chapter-events table th {
+	padding: 10px 0;
+}
+
+#alumni-chapter-events table tr td {
+	color: #666;
+}
+
+#alumni-chapter-events table img {
+	float: left;
+	margin-right: 18px;
+}
+
+#alumni-chapter-events table a {
+	display: block;
+}
