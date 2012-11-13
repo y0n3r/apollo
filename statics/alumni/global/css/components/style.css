@@ -243,3 +243,20 @@
 
 .faq-item .question { font-size: 18px; font-family: 'PhoenixSansMedium'; }
 .faq-item .answer { font-size: 15px; }
+
+/*	Opportunities & Support
+------------------------------------*/
+.opps {
+	margin: 0 0 15px; padding: 0 0 10px;
+	border-bottom: 1px solid #d5d6d2;
+}
+
+.opps .media { overflow: hidden; }
+
+.opps .media-body {
+	float: left;
+	width: 493px;
+	margin: 0 0 0 10px;
+}
+
+.opps .media-body h5 { margin: 0 0 5px; line-height: 1em; }

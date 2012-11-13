@@ -1,3 +1,5 @@
+/*	Homepage
+------------------------------------*/
 /* Resources */
 .resources {
 	background: #851782;
@@ -252,3 +254,75 @@
 	font-family: 'PhoenixSansMedium';
 }
 
+/*	Widget Variations
+------------------------------------*/
+/* Global */
+.widget {
+	margin: 0 0 20px; padding: 0;
+	overflow: hidden;
+}
+
+.widget.orange { background: #fff; color: #000; border-top: 2px solid #FF6600; }
+.widget.red { background: #fff; color: #000; border-top: 2px solid #D7234A; }
+.widget.purple { background: #fff; color: #000; border-top: 2px solid #851782; }
+.widget.blue { background: #fff; color: #000; border-top: 2px solid #0099CC; }
+.widget.pale-blue { background: #fff; color: #000; border-top: 2px solid #A3DBE8; }
+.widget.green { background: #fff; color: #000; border-top: 2px solid #4FAC1C; }
+.widget.avocado { background: #fff; color: #000; border-top: 2px solid #B7CD00; }
+
+.widget h3 {
+	margin: 0; padding: 2px 10px;
+	background: #ededed;
+	font-size: 18px;
+	line-height: 1em;
+}
+.widget.orange h3 { background: #FF6600; color: #fff; }
+.widget.red h3 { background: #D7234A; color: #fff; }
+.widget.purple h3 { background: #851782; color: #fff; }
+.widget.blue h3 { background: #0099CC; color: #fff; }
+.widget.pale-blue h3 { background: #A3DBE8; color: #000; }
+.widget.green h3 { background: #4FAC1C; color: #fff; }
+.widget.avocado h3 { background: #B7CD00; color: #000; }
+
+.widget .section {
+	overflow: hidden;
+	border: 2px solid #ededed;
+	border-width: 0 2px 2px;
+	padding: 20px 10px 20px;
+}
+
+/* Generic */
+
+/* Content Based */
+.widget.content h3 { background: transparent; padding: 0 0 5px; margin: 0 0 10px; border-bottom: 1px solid #000; }
+.widget.content .section { border: 0; padding: 0; }
+.widget.content .img { border: 2px solid #ededed; text-align: center; }
+
+/* Benefits and Discounts */
+.widget .section { border: 0; padding: 0; }
+
+.widget .section.thumbnails { margin: 0; }
+.widget .section.thumbnails li { margin: 0; padding: 0; }
+
+.widget .section.thumbnails .thumbnail {
+	border: 1px solid #ededed;
+	border-width: 0 1px 1px;
+}
+.widget .section.thumbnails .thumbnail img {
+	margin: 0; padding: 0;
+}
+
+.widget.color .img.top { margin: 0; }
+
+.widget.color p {
+	background: #ededed;
+	margin: 0; padding: 5px 10px;
+	
+}
+.widget.color p.spec span {
+	display: block;
+	padding: 0 0 5px;
+	border-bottom: 1px dotted #8a8f92;
+}
+
+.widget.color p a { color: #006697; }

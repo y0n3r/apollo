@@ -238,7 +238,6 @@ BREADCRUMB is not in the TEMPLATE
 												<p><a class="read-more" href="">See more deals</a></p>
 											</div>
 										</div>
-											
 									</div>
 								</div><!--/span-->
 								
@@ -305,7 +304,7 @@ BREADCRUMB is not in the TEMPLATE
 						<li>
 							<img src="/dam/mentor-03.jpg" width="300" height="85" />
 							<p>
-								<span class="name"><strong>Mentor</strong> Cindy Hill</span>
+								<span class="name"><strong>Mentor</strong> Caroline Kitt</span>
 								<span class="cv">MBA '08  |  Mason, Ohio</span>
 								<span class="title">VP of Facilities Management</span>
 								<span class="inst">Jones Lang LaSalle</span>
@@ -314,13 +313,23 @@ BREADCRUMB is not in the TEMPLATE
 						<li>
 							<img src="/dam/mentor-04.jpg" width="300" height="85" />
 							<p>
-								<span class="name"><strong>Mentee</strong> Cindy Hill</span>
+								<span class="name"><strong>Mentee</strong> Rocko Pitt</span>
 								<span class="cv">MBA '08  |  Mason, Ohio</span>
 								<span class="title">VP of Facilities Management</span>
 								<span class="inst">ProLogis</span>
 							</p>
 						</li>
 					</ul>
+					
+					<div class="carousel-extra" id="mentor-0">
+						<h5>From unemployment to dream job</h5>
+						<p>"This has been a life-changing experience for me," Samantha says. "In the beginning [of my degree program], I felt all alone and overwhelmed about starting school again so late in life. I needed direction and guidance to help pull me through. I recommend this program to everyone&mdash; it could be the deciding factor between failure and success."</p>
+					</div>
+					
+					<div class="carousel-extra" id="mentor-1">
+						<h5>From unemployment to dream job</h5>
+						<p>Rocko</p>
+					</div>
 				</div>
 				<!-- END CQ COMPONENT -->
 				
@@ -440,24 +449,139 @@ BREADCRUMB is not in the TEMPLATE
 			</div>
 			<!-- END: FAQ -->
 			
-			<!-- CQ COMPONENT: Modules -->
-			<div class="section modules">
-				<h2>Module Variations</h2>
-				<h3>Get Involved</h3>
-				<h3>Benefits & Discounts</h3>
-				{Dev: N/A}<br />
-				{Comp: get involved, }
+			<h2>Widget Variations</h2>
+			<div class="row">
+				<div class="span4">
+					<!-- CQ COMPONENT: Widget -->
+					<div class="section widget generic">
+						<h3>Title</h3>
+						<div class="section textimage">
+							<div class="img top">
+								<img class="media-object" src="http://placehold.it/210x80">
+							</div>
+							<p>Lorem ipsum dolor emet</p>
+						</div>
+					</div>
+					<!-- END: Widget -->
+				</div>
+				<div class="span4">
+					<!-- CQ COMPONENT: Widget -->
+					<div class="section widget generic">
+						<h3>Title</h3>
+						<div class="section textimage">
+							<div class="img left">
+								<img class="media-object" src="http://placehold.it/86x100">
+							</div>
+							<p>Lorem ipsum dolor emet. Consul parata dol emet, ibi suntata.</p>
+						</div>
+					</div>
+					<!-- END: Widget -->
+				</div>
+				<div class="span8"></div>
 			</div>
-			<!-- END: FAQ -->
+			
+			<div class="row">
+				<div class="span6">
+					<!-- CQ COMPONENT: Widget -->
+					<div class="section widget content">
+						<h3>Title</h3>
+						<div class="section textimage">
+							<div class="img top">
+								<img class="media-object" src="http://placehold.it/351x154">
+							</div>
+							<p>Lorem ipsum dolor emet</p>
+							<p><a href="">Learn more &rsaquo;</a></p>
+						</div>
+					</div>
+					<!-- END: Widget -->
+				</div>
+				<div class="span5">
+					<!-- CQ COMPONENT: Widget -->
+					<div class="section widget content">
+						<h3>Title</h3>
+						<div class="section textimage">
+							<div class="img top">
+								<img class="media-object" src="http://placehold.it/351x154">
+							</div>
+							<p>Lorem ipsum dolor emet</p>
+							<p><a href="">Learn more &rsaquo;</a></p>
+						</div>
+					</div>
+					<!-- END: Widget -->
+				</div>
+				<div class="span5"></div>
+			</div>
+			
+			<div class="row">
+				<div class="span6">
+					<!-- CQ COMPONENT: Widget -->
+					<div class="section widget color blue">
+						<h3>Title</h3>
+						<ul class="section thumbnails">
+							<li>
+								<a class="thumbnail">
+									<img src="/dam/jacket.jpg" alt="" width="115" />
+								</a>
+							</li>
+							<li>
+								<a class="thumbnail">
+									<img src="http://placehold.it/115x145" alt="" />
+								</a>
+							</li>
+							<li>
+								<a class="thumbnail">
+									<img src="/dam/shirt.jpg" alt="" />
+								</a>
+							</li>
+							<li>
+								<a class="thumbnail">
+									<img src="http://placehold.it/115x145" alt="" />
+								</a>
+							</li>
+							<li>
+								<a class="thumbnail">
+									<img src="http://placehold.it/115x145" alt="" />
+								</a>
+							</li>
+							<li>
+								<a class="thumbnail">
+									<img src="http://placehold.it/115x145" alt="" />
+								</a>
+							</li>
+						</ul>
+						<p class="spec"><span>Lorem ipsum dolor emet</span></p>
+						<p><a href="">See more &rsaquo;</a></p>
+					</div>
+					<!-- END: Widget -->
+				</div>
+				<div class="span5">
+					<!-- CQ COMPONENT: Widget -->
+					<div class="section widget color red">
+						<h3>Title</h3>
+						<div class="section textimage">
+							<div class="img top">
+								<img class="media-object" src="http://placehold.it/210x80">
+							</div>
+							<p class="spec"><span>Lorem ipsum dolor emet</span></p>
+							<p><a href="">See more &rsaquo;</a></p>
+						</div>
+					</div>
+					<!-- END: Widget -->
+					
+					<!-- CQ COMPONENT: Widget -->
+					<div class="section widget color purple">
+						<h3>Title</h3>
+						<div class="section textimage">
+							<div class="img top">
+								<img class="media-object" src="http://placehold.it/210x80">
+							</div>
+							<p class="spec"><span>Lorem ipsum dolor emet</span></p>
+							<p><a href="">See more &rsaquo;</a></p>
+						</div>
+					</div>
+					<!-- END: Widget -->
+				</div>
+				<div class="span5"></div>
 	</div><!-- /span11 -->
-	
-	<div class="span4 offset1 sidebar">
-		<!-- CQ COMPONENT: Module -->
-		<div class="section module generic">
-			<h3>Title</h3>
-			{text-image}
-		</div>
-		<!-- END: Block -->
-	</div><!-- /span4+1 -->
 </div> <!-- /row -->
 </div><!--/.container-->

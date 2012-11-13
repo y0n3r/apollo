@@ -113,6 +113,8 @@
 
 
 /*___*** Mentors ***___*/
+.ic_ic-mentors { margin: 0 0 30px; }
+
 .ic_ic-mentors .ic_caption span {
 	display: block;
 	font-size: 12px;
@@ -121,6 +123,16 @@
 
 .ic_ic-mentors .ic_caption span.name { font-size: 15px; }
 .ic_ic-mentors .ic_caption span.name strong { font-family: 'PhoenixSansMedium'; color: #851782; }
+
+.ic_ic-mentors .ic_right_nav, .ic_ic-mentors .ic_left_nav { top: 0 !important; }
+
+.carousel-extra {
+	margin: 0 0 15px; padding: 0 0 10px;
+	border-bottom: 1px solid #ededed;
+}
+
+.carousel-extra p { line-height: 1.5em; font-size: 18px; }
+.carousel-extra h5 { line-height: 1em; font-size: 18px; font-family: 'PhoenixSansMedium'; }
 
 /*___*** Offers ***___*/
 .ic_ic-offers {
