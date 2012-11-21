@@ -44,6 +44,12 @@ form.filter .filters input { width: 60px; font-size: 11px; margin: 2px 0 2px 2px
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	cursor: pointer;
+	width: 208px; height: 121px;
+}
+
+.thumbnail > img {
+	width: 208px;
+	height: auto;
 }
 
 .thumbnail > p {
