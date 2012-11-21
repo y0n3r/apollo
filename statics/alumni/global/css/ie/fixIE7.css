@@ -1,0 +1,16 @@
+header h1.brand a {
+	zoom: 1;
+	display: block;
+}
+
+.ic_ic-home .ic_thumbnails {
+	display: inline-block;
+	zoom: 1;
+	display: inline;
+}
+
+.ic_ic-home .ic_button {
+	display: inline-block;
+	zoom: 1;
+	display: inline;
+}

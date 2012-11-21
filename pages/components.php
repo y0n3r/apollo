@@ -284,7 +284,7 @@ BREADCRUMB is not in the TEMPLATE
 				<div class="section carousel">
 					<ul id="ic-mentors">
 						<li>
-							<img src="/dam/mentor-01.jpg" width="300" height="85" />
+							<img src="/dam/mentor-01.jpg" width="300" height="85" id="alpha" />
 							<p>
 								<span class="name"><strong>Mentor</strong> Cindy Hill</span>
 								<span class="cv">MBA '08  |  Mason, Ohio</span>
@@ -302,7 +302,7 @@ BREADCRUMB is not in the TEMPLATE
 							</p>
 						</li>
 						<li>
-							<img src="/dam/mentor-03.jpg" width="300" height="85" />
+							<img src="/dam/mentor-03.jpg" width="300" height="85" id="beta" />
 							<p>
 								<span class="name"><strong>Mentor</strong> Caroline Kitt</span>
 								<span class="cv">MBA '08  |  Mason, Ohio</span>
@@ -339,7 +339,7 @@ BREADCRUMB is not in the TEMPLATE
 				</div>
 				<!-- END CQ COMPONENT: Subtitle -->
 				
-				<!-- CQ COMPONENT: Carousel, Mentors -->
+				<!-- CQ COMPONENT: Carousel, Offers -->
 				<div class="section carousel">
 					<ul id="ic-offers">
 						<li>

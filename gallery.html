@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+	<title>My First TN3 Gallery</title>
+
+	<link href="/statics/alumni/global/css/plugins/tn3/skins/tn3/tn3.css" rel="stylesheet">
+	<link href="/statics/alumni/global/css/plugins/tn3/skins/tn3e/tn3e.css" rel="stylesheet">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="/statics/alumni/global/js/plugins/jquery.tn3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.gallery').tn3({
+				skin: 'tn3e',
+				skinDir: '/statics/alumni/global/css/plugins/tn3/skins/',
+				autoplay: false
+			});
+		});
+	</script>
+
+</head>
+  
+<body>
+
+    <div class="gallery">
+		<ul>
+			<li>
+				<h4>Image 1</h4>
+				<div class="tn3 description">My Image 1 description</div>
+				<a href="/dam/tn3/1.jpg"><img src="http://placehold.it/105x58" /></a>
+			</li>
+			<li>
+				<h4>Image 2</h4>
+				<div class="tn3 description">My Image 2 description</div>
+				<a href="/dam/tn3/2.jpg"><img src="http://placehold.it/105x58" /></a>
+			</li>
+			<li>
+				<h4>Image 3</h4>
+				<div class="tn3 description">My Image 3 description</div>
+				<a href="/dam/tn3/3.jpg"><img src="http://placehold.it/105x58" /></a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

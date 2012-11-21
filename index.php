@@ -67,12 +67,25 @@
 		<link href="/statics/alumni/global/css/richtext.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/typography.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/frame.css" rel="stylesheet">
+		
+		<link href="/statics/alumni/global/css/plugins/tn3/skins/tn3-apollo/tn3-apollo.css" rel="stylesheet">
+		
 		<link href="/statics/alumni/global/css/components/style.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/modules.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/carousel.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/events.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/forms.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/photos.css" rel="stylesheet">
+		
+		<!--[if IE 7]>
+			<link href="/statics/alumni/global/css/ie/fixIE7.css" rel="stylesheet">
+		<![endif]-->
+		<!--[if IE 8]>
+			<link href="/statics/alumni/global/css/ie/fixIE8.css" rel="stylesheet">
+		<![endif]-->
+		<!--[if IE 9]>
+			<link href="/statics/alumni/global/css/ie/fixIE9.css" rel="stylesheet">
+		<![endif]-->
 	</head>
 
 	<body>
@@ -158,6 +171,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script src="/statics/alumni/global/js/bootstrap.js"></script>
 		<script src="/statics/alumni/global/js/plugins/jquery.infinitecarousel3.custom.js"></script>
+		<script src="/statics/alumni/global/js/plugins/jquery.tn3.min.js"></script>
 		<script src="/statics/alumni/global/js/custom.js"></script>
 
 	</body>

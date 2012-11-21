@@ -67,7 +67,7 @@
 .ic_ic-home .ic_button h3 {
 	font-size: 10px;
 	position: absolute; top: -65px; left: 0;
-	background: #fff;
+	background: #000;
 	background: rgba(0,0,0,0.70);
 	margin: 0; padding: 10px 0 0;
 	width: 102px; height: 53px;
@@ -127,6 +127,7 @@
 .ic_ic-mentors .ic_right_nav, .ic_ic-mentors .ic_left_nav { top: 0 !important; }
 
 .carousel-extra {
+	display: none;
 	margin: 0 0 15px; padding: 0 0 10px;
 	border-bottom: 1px solid #ededed;
 }

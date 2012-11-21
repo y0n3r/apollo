@@ -78,7 +78,7 @@ Here is the markup for secondary pages, without content for ease of integration.
 				
 <div class="container">
 <div class="row">
-	<div class="span12">
+	<div class="span11">		
 		<!-- CQ COMPONENT: Photo Album -->
 		<form class="filter" action="" method="post">
 			<div class="year">
@@ -92,222 +92,101 @@ Here is the markup for secondary pages, without content for ease of integration.
 		</form>
 		<div class="section photo-album">
 			<ul class="thumbnails">
-				<li class="span4">
+				<li>
 					<div class="thumbnail">
-						<img src="/dam/photo-thumb-01.jpg" alt="" data-toggle="modal" data-target="#modal-photo-01">
+						<img src="http://placehold.it/208x121" alt="" />
 						<p><strong>Alabama</strong> August 4, 2012</p>
+						<div class="thumb-hover" data-toggle="modal" data-target="#modal-photo-01">
+							<p>Atlanta alumni cheered on the Greenjackets and reconnected with old friends.<p>
+							<p class="count">23 images</p>
+						</div>
 						
-						<div id="modal-photo-01" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div id="modal-photo-01" class="modal fade lb-gallery" tabindex="-1" role="dialog" aria-labelledby="Alabama, August 4, 2012" aria-hidden="true">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 								<h3><strong>Alabama</strong> August 4, 2012</h3>
 							</div>
 							<div class="modal-body">
-								<img src="/dam/photo-01.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-02.jpg" alt="" data-toggle="modal" data-target="#modal-photo-02">
-						<p><strong>Atlanta</strong> September 16, 2012</p>
-						
-						<div id="modal-photo-02" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Atlanta</strong> September 16, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-02.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-03.jpg" alt="" data-toggle="modal" data-target="#modal-photo-03">
-						<p><strong>Augusta</strong> August 3, 2012</p>
-						
-						<div id="modal-photo-03" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Augusta</strong> August 3, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-03.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-04.jpg" alt="" data-toggle="modal" data-target="#modal-photo-01">
-						<p><strong>Alabama</strong> August 4, 2012</p>
-						
-						<div id="modal-photo-01" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Alabama</strong> August 4, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-01.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-05.jpg" alt="" data-toggle="modal" data-target="#modal-photo-02">
-						<p><strong>Atlanta</strong> September 16, 2012</p>
-						
-						<div id="modal-photo-02" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Atlanta</strong> September 16, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-02.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-06.jpg" alt="" data-toggle="modal" data-target="#modal-photo-03">
-						<p><strong>Augusta</strong> August 3, 2012</p>
-						
-						<div id="modal-photo-03" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Augusta</strong> August 3, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-03.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-07.jpg" alt="" data-toggle="modal" data-target="#modal-photo-01">
-						<p><strong>Alabama</strong> August 4, 2012</p>
-						
-						<div id="modal-photo-01" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Alabama</strong> August 4, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-01.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-08.jpg" alt="" data-toggle="modal" data-target="#modal-photo-02">
-						<p><strong>Atlanta</strong> September 16, 2012</p>
-						
-						<div id="modal-photo-02" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Atlanta</strong> September 16, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-02.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-09.jpg" alt="" data-toggle="modal" data-target="#modal-photo-03">
-						<p><strong>Augusta</strong> August 3, 2012</p>
-						
-						<div id="modal-photo-03" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Augusta</strong> August 3, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-03.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-10.jpg" alt="" data-toggle="modal" data-target="#modal-photo-01">
-						<p><strong>Alabama</strong> August 4, 2012</p>
-						
-						<div id="modal-photo-01" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Alabama</strong> August 4, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-01.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-11.jpg" alt="" data-toggle="modal" data-target="#modal-photo-02">
-						<p><strong>Atlanta</strong> September 16, 2012</p>
-						
-						<div id="modal-photo-02" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Atlanta</strong> September 16, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-02.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
-						</div>
-					</div>
-				</li>
-				<li class="span4">
-					<div class="thumbnail">
-						<img src="/dam/photo-thumb-12.jpg" alt="" data-toggle="modal" data-target="#modal-photo-03">
-						<p><strong>Augusta</strong> August 3, 2012</p>
-						
-						<div id="modal-photo-03" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								<h3><strong>Augusta</strong> August 3, 2012</h3>
-							</div>
-							<div class="modal-body">
-								<img src="/dam/photo-03.jpg" alt="" />
-								<h5>Nancy Olsen and Joanne Hart, MBAs of Information Systems.</h5>
-								<p>"We came to share and celebrate the successes of fellow graduates. And to expand our network of friends and contacts."</p>
-							</div>
+								<div class="gallery">
+									<ul>
+										<li>
+											<h4>Image 1</h4>
+											<div class="tn3 description">My Image 1 description</div>
+											<a href="/dam/tn3/1.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 2</h4>
+											<div class="tn3 description">My Image 2 description</div>
+											<a href="/dam/tn3/2.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 3</h4>
+											<div class="tn3 description">My Image 3 description</div>
+											<a href="/dam/tn3/3.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 1</h4>
+											<div class="tn3 description">My Image 1 description</div>
+											<a href="/dam/tn3/1.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 2</h4>
+											<div class="tn3 description">My Image 2 description</div>
+											<a href="/dam/tn3/2.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 3</h4>
+											<div class="tn3 description">My Image 3 description</div>
+											<a href="/dam/tn3/3.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 1</h4>
+											<div class="tn3 description">My Image 1 description</div>
+											<a href="/dam/tn3/1.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 2</h4>
+											<div class="tn3 description">My Image 2 description</div>
+											<a href="/dam/tn3/2.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 3</h4>
+											<div class="tn3 description">My Image 3 description</div>
+											<a href="/dam/tn3/3.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 1</h4>
+											<div class="tn3 description">My Image 1 description</div>
+											<a href="/dam/tn3/1.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 2</h4>
+											<div class="tn3 description">My Image 2 description</div>
+											<a href="/dam/tn3/2.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 3</h4>
+											<div class="tn3 description">My Image 3 description</div>
+											<a href="/dam/tn3/3.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 1</h4>
+											<div class="tn3 description">My Image 1 description</div>
+											<a href="/dam/tn3/1.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 2</h4>
+											<div class="tn3 description">My Image 2 description</div>
+											<a href="/dam/tn3/2.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+										<li>
+											<h4>Image 3</h4>
+											<div class="tn3 description">My Image 3 description</div>
+											<a href="/dam/tn3/3.jpg"><img src="http://placehold.it/105x58" /></a>
+										</li>
+									</ul>
+								</div>
+							</div><!-- / Modal Body-->
 						</div>
 					</div>
 				</li>
@@ -316,7 +195,7 @@ Here is the markup for secondary pages, without content for ease of integration.
 		<!-- END Photo Album -->
 	</div><!--/span-->
 	
-	<div class="span4">
+	<div class="span4 offset1">
 		<!-- CQ COMPONENT: Block -->
 		<div class="section">
 			<h4>Homecoming Video</h4>

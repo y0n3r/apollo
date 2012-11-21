@@ -31,7 +31,7 @@ label.checkbox {
 	width: 50%;
 	color: #666;
 }
-.thumbnail img {
+form .thumbnail img {
 	float: left;
 	margin-right: 30px;
 }

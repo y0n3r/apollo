@@ -169,4 +169,24 @@ $(document).ready(function(){
 	$('.hero-extra .offer').mouseleave(function(){
 		$(this).find('.overlay').css('bottom','-145px');
 	});
+	
+	
+	/*____// Photo Grid and Gallery //____*/
+	$('.thumbnail').mouseenter(function(){
+		$(this).find('.thumb-hover').animate({top:'0'});
+	});
+	$('.thumbnail').mouseleave(function(){
+		$(this).find('.thumb-hover').animate({top:'-103'});
+	});
+	
+	$('.gallery').tn3({
+		skin: 'tn3-apollo',
+		skinDir: '/statics/alumni/global/css/plugins/tn3/skins/',
+		autoplay: false,
+		inactive: [
+			'albums',
+			'show-albums',
+			'fullscreen'
+		]
+	});
 });
