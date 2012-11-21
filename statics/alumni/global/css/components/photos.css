@@ -72,8 +72,8 @@ form.filter .filters input { width: 60px; font-size: 11px; margin: 2px 0 2px 2px
 
 /* Lightbox */
 .modal.lb-gallery {
-	width: 992px;
-	margin-left: -496px;
+	width: 754px;
+	margin-left: -377px;
 }
 
 .lb-gallery .modal-body { max-height: 650px; }
