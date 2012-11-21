@@ -517,40 +517,13 @@ BREADCRUMB is not in the TEMPLATE
 					<!-- CQ COMPONENT: Widget -->
 					<div class="section widget color blue">
 						<h3>Title</h3>
-						<ul class="section thumbnails">
-							<li>
-								<a class="thumbnail">
-									<img src="/dam/jacket.jpg" alt="" width="115" />
-								</a>
-							</li>
-							<li>
-								<a class="thumbnail">
-									<img src="http://placehold.it/115x145" alt="" />
-								</a>
-							</li>
-							<li>
-								<a class="thumbnail">
-									<img src="/dam/shirt.jpg" alt="" />
-								</a>
-							</li>
-							<li>
-								<a class="thumbnail">
-									<img src="http://placehold.it/115x145" alt="" />
-								</a>
-							</li>
-							<li>
-								<a class="thumbnail">
-									<img src="http://placehold.it/115x145" alt="" />
-								</a>
-							</li>
-							<li>
-								<a class="thumbnail">
-									<img src="http://placehold.it/115x145" alt="" />
-								</a>
-							</li>
-						</ul>
-						<p class="spec"><span>Lorem ipsum dolor emet</span></p>
-						<p><a href="">See more &rsaquo;</a></p>
+						<div class="section textimage">
+							<div class="img top">
+								<img class="media-object" src="/dam/student-store.jpg">
+							</div>
+							<p class="spec"><span>Lorem ipsum dolor emet</span></p>
+							<p><a href="">See more &rsaquo;</a></p>
+						</div>
 					</div>
 					<!-- END: Widget -->
 				</div>
@@ -558,10 +531,14 @@ BREADCRUMB is not in the TEMPLATE
 					<!-- CQ COMPONENT: Widget -->
 					<div class="section widget color red">
 						<h3>Title</h3>
+						<div class="section carousel">
+							<ul id="ic-products">
+								<li><img src="/dam/herff-ring.jpg" width="97" height="99" /></li>
+								<li><img src="/dam/herff-ring2.jpg" width="97" height="99" /></li>
+								<li><img src="/dam/herff-pin.jpg" width="97" height="99" /></li>
+							</ul>
+						</div>
 						<div class="section textimage">
-							<div class="img top">
-								<img class="media-object" src="http://placehold.it/210x80">
-							</div>
 							<p class="spec"><span>Lorem ipsum dolor emet</span></p>
 							<p><a href="">See more &rsaquo;</a></p>
 						</div>

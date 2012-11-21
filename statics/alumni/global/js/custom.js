@@ -147,6 +147,34 @@ $(document).ready(function(){
 		onPauseClick: function(){},
 		onPlayClick: function(){}
 	});
+	
+	// Products
+	$('#ic-products').infiniteCarousel({
+		transitionSpeed:600,
+		displayTime: 6000,
+		displayProgressRing: false,
+		progressRingColorOpacity: '0,0,0,0',
+		progressRingBackgroundOn: false,
+		progressRingBackgroundColorOpacity: '255,255,255,255',
+		thumbnailType: 'buttons',
+		easeLeft: 'linear',
+		easeRight:'linear',
+		imagePath: '/statics/alumni/global/img/plugins/default/',
+		inView: 1,
+		margin: 0,
+		advance: 1,
+		customClass: 'ic-products',
+		showControls: false,
+		autoHideCaptions: false,
+		autoPilot: false,
+		prevNextInternal: false,
+		internalThumbnails: false,
+		enableKeyboardNav: false,
+		onSlideStart: function(){},
+		onSlideEnd: function(){},
+		onPauseClick: function(){},
+		onPlayClick: function(){}
+	});
 
 	//___ Form Controls ___//
 	$( ".form-section .signup" ).on( "click" , "a" , function() {

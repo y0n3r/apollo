@@ -288,8 +288,24 @@
 	overflow: hidden;
 	border: 2px solid #ededed;
 	border-width: 0 2px 2px;
-	padding: 20px 10px 20px;
+	padding: 10px;
 }
+
+.widget .section.carousel {
+	border-width: 0 2px;
+	margin: 0;
+}
+
+.widget .ic_button {
+	width: 7px; height: 7px;
+	background: #d5d6d2;
+	display: inline-block;
+	margin: 0 5px;
+}
+.widget .ic_button.ic_active { background: #000; }
+
+.ic_ic-products { margin: 0 auto; }
+.ic_ic-products .ic_right_nav, .ic_ic-products .ic_left_nav { display: none; }
 
 /* Generic */
 
@@ -299,8 +315,6 @@
 .widget.content .img { border: 2px solid #ededed; text-align: center; }
 
 /* Benefits and Discounts */
-.widget .section { border: 0; padding: 0; }
-
 .widget .section.thumbnails { margin: 0; }
 .widget .section.thumbnails li { margin: 0; padding: 0; }
 
@@ -311,8 +325,6 @@
 .widget .section.thumbnails .thumbnail img {
 	margin: 0; padding: 0;
 }
-
-.widget.color .img.top { margin: 0; }
 
 .widget.color p {
 	background: #ededed;

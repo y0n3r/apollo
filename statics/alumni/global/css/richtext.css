@@ -1,6 +1,6 @@
 /*	Text-Image image handling
 ------------------------------------*/
-.img.top { float: none; margin: 0 0 10px; }
+.img.top { float: none; margin: 0 0 10px; text-align: center; }
 
 .img.left { float: left; margin: 0 10px 5px 0; }
 
