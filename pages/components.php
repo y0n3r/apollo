@@ -550,7 +550,7 @@ BREADCRUMB is not in the TEMPLATE
 						<h3>Title</h3>
 						<div class="section textimage">
 							<div class="img top">
-								<img class="media-object" src="http://placehold.it/210x80">
+								<img class="media-object" src="/dam/liberty-mutual.jpg">
 							</div>
 							<p class="spec"><span>Lorem ipsum dolor emet</span></p>
 							<p><a href="">See more &rsaquo;</a></p>
