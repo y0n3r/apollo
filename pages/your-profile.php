@@ -3,8 +3,9 @@
 <h6>*required</h6>
 
 <form name="your-profile" id="your-profile" action="#">
-	<div class="form-section left">
-		<div class="component">
+	<div class="row">
+		<div class="span8">
+			<div class="component">
 			<header>
 				<h2>Personal Info</h2>
 				<h3>To be shown in Alumni Directory</h3>
@@ -82,7 +83,7 @@
 				</ul>
 			</fieldset>				
 		</div><!-- .component -->
-		<div class="component">
+			<div class="component">
 			<header>
 				<h2>Additional Info</h2>
 			</header>
@@ -153,113 +154,114 @@
 				</ul>
 			</fieldset>
 		</div><!-- .component -->
-	</div><!-- .form-section.left -->	
+		</div><!-- /span -->
 	
-	<div class="form-section right">
-		<div class="component thumbnail">
-			<header>
-				<h2>Profile Photo</h2>
-			</header>
-			<img src="/statics/alumni/global/img/sandbox/thumb/your-profile.jpg">
-			<input type="file"><br>
-			<input type="checkbox" name="show-in-dir" id="show-in-dir" value="yes" checked> <label for="show-in-dir" class="checkbox">Show in directory</label>
-			<div class="clear"></div>
-		</div><!-- .component -->
-		<div class="component">
-			<header>
-				<h2>Additional Info</h2>
-			</header>
-			<fieldset>
-				<ul class="unstyled">
-					<li>
-						<label for="birthdate">Birthdate</label>
-						<select name="birthdate" class="bday" id="birthmonth">
-							<option value="jan">January</option>
-							<option value="feb">February</option>
-							<option value="mar">March</option>
-							<option value="apr">April</option>
-							<option value="may">May</option>
-						</select>
-						<select name="birthdate" class="bday" id="birthday">
-							<option value="01">01</option>
-							<option value="02">02</option>
-							<option value="03">03</option>
-							<option value="04">04</option>
-							<option value="05">05</option>
-						</select>
-						<select name="birthdate" class="bday" id="birthyear">
-							<option value="1985">1985</option>
-							<option value="1984">1984</option>
-							<option value="1983">1983</option>
-							<option value="1982">1982</option>
-							<option value="1981">1981</option>
-							<option value="1980">1980</option>
-						</select>
-					</li>
-					<li>
-						<label for="gender">Gender</label>
-						<select name="gender" id="gender">
-							<option value="female">Female</option>
-							<option value="male">Male</option>
-							<option value="option3">Transgender Female</option>
-							<option value="option4">Transgender Male</option>
-							<option value="option5">Other</option>
-						</select>
-					</li>
-				</ul>
-			</fieldset>
-		</div><!-- .component -->
-		<div class="component">
-			<header>
-				<h2>Set your password</h2>
-			</header>
-			<fieldset>
-				<ul class="unstyled">
-					<li>
-						<label for="password">*Create a Password</label>
-						<input type="password" name="password" id="password" required>
-					</li>
-					<li>
-						<label for="password-confirm">*Confirm Password</label>
-						<input type="password" name="password-confirm" id="password-confirm" required>
-					</li>
-				</ul>
-			</fieldset>
-		</div><!-- .component -->
-		<div class="component">
-			<header>
-				<h2>Options</h2>
-				<h3>Phoenix reps may contact me about the following:</h3>
-			</header>
-			<fieldset>
-				<ul class="unstyled">
-					<li>
-						<input type="checkbox" name="mentoring-uopx" id="mentoring-uopx" value="yes" checked> <label for="mentoring-uopx" class="checkbox">Mentoring UOPX Students and Alumni</label>
-					</li>
-					<li>
-						<input type="checkbox" name="introducing-uopx" id="introducing-uopx" value="yes" checked> <label for="introducing-uopx" class="checkbox">Introducing UOPX Job Seekers to Your Company</label>
-					</li>
-					<li>
-						<input type="checkbox" name="participate" id="participate" value="yes" checked> <label for="participate" class="checkbox">Participate in focus groups</label>
-					</li>
-					<li>
-						<input type="checkbox" name="join-chapter" id="join-chapter" value="yes" checked> <label for="join-chapter" class="checkbox">Join an Alumni Chapter or Belong to a Chapter</label>
-					</li>
-					<li>
-						<input type="checkbox" name="UOPX-rep" id="UOPX-rep" value="yes" checked> <label for="UOPX-rep" class="checkbox">Be a UOPX alumni representative at local campus events</label>
-					</li>
-					<li>
-						<input type="checkbox" name="share" id="share" value="yes" checked> <label for="share" class="checkbox">Share Your Story</label>
-					</li>
-					<li>
-						<input type="checkbox" name="post-listing" id="post-listing" value="yes" checked> <label for="post-listing" class="checkbox">Post Your Business Listing</label>
-					</li>
-				</ul>
-			</fieldset>
-		</div><!-- .component -->
-		<div class="signup">
-			<a href="#">Update Profile</a>
-		</div><!-- .signup -->
-	</div><!-- .form-section.right -->
+		<div class="span8">
+			<div class="component profile-pic">
+				<header>
+					<h2>Profile Photo</h2>
+				</header>
+				<img src="/statics/alumni/global/img/sandbox/thumb/your-profile.jpg">
+				<input type="file"><br>
+				<input type="checkbox" name="show-in-dir" id="show-in-dir" value="yes" checked> <label for="show-in-dir" class="checkbox">Show in directory</label>
+				<div class="clear"></div>
+			</div><!-- .component -->
+			<div class="component">
+				<header>
+					<h2>Additional Info</h2>
+				</header>
+				<fieldset>
+					<ul class="unstyled">
+						<li>
+							<label for="birthdate">Birthdate</label>
+							<select name="birthdate" class="bday" id="birthmonth">
+								<option value="jan">January</option>
+								<option value="feb">February</option>
+								<option value="mar">March</option>
+								<option value="apr">April</option>
+								<option value="may">May</option>
+							</select>
+							<select name="birthdate" class="bday" id="birthday">
+								<option value="01">01</option>
+								<option value="02">02</option>
+								<option value="03">03</option>
+								<option value="04">04</option>
+								<option value="05">05</option>
+							</select>
+							<select name="birthdate" class="bday" id="birthyear">
+								<option value="1985">1985</option>
+								<option value="1984">1984</option>
+								<option value="1983">1983</option>
+								<option value="1982">1982</option>
+								<option value="1981">1981</option>
+								<option value="1980">1980</option>
+							</select>
+						</li>
+						<li>
+							<label for="gender">Gender</label>
+							<select name="gender" id="gender">
+								<option value="female">Female</option>
+								<option value="male">Male</option>
+								<option value="option3">Transgender Female</option>
+								<option value="option4">Transgender Male</option>
+								<option value="option5">Other</option>
+							</select>
+						</li>
+					</ul>
+				</fieldset>
+			</div><!-- .component -->
+			<div class="component">
+				<header>
+					<h2>Set your password</h2>
+				</header>
+				<fieldset>
+					<ul class="unstyled">
+						<li>
+							<label for="password">*Create a Password</label>
+							<input type="password" name="password" id="password" required>
+						</li>
+						<li>
+							<label for="password-confirm">*Confirm Password</label>
+							<input type="password" name="password-confirm" id="password-confirm" required>
+						</li>
+					</ul>
+				</fieldset>
+			</div><!-- .component -->
+			<div class="component">
+				<header>
+					<h2>Options</h2>
+					<h3>Phoenix reps may contact me about the following:</h3>
+				</header>
+				<fieldset>
+					<ul class="unstyled">
+						<li>
+							<input type="checkbox" name="mentoring-uopx" id="mentoring-uopx" value="yes" checked> <label for="mentoring-uopx" class="checkbox">Mentoring UOPX Students and Alumni</label>
+						</li>
+						<li>
+							<input type="checkbox" name="introducing-uopx" id="introducing-uopx" value="yes" checked> <label for="introducing-uopx" class="checkbox">Introducing UOPX Job Seekers to Your Company</label>
+						</li>
+						<li>
+							<input type="checkbox" name="participate" id="participate" value="yes" checked> <label for="participate" class="checkbox">Participate in focus groups</label>
+						</li>
+						<li>
+							<input type="checkbox" name="join-chapter" id="join-chapter" value="yes" checked> <label for="join-chapter" class="checkbox">Join an Alumni Chapter or Belong to a Chapter</label>
+						</li>
+						<li>
+							<input type="checkbox" name="UOPX-rep" id="UOPX-rep" value="yes" checked> <label for="UOPX-rep" class="checkbox">Be a UOPX alumni representative at local campus events</label>
+						</li>
+						<li>
+							<input type="checkbox" name="share" id="share" value="yes" checked> <label for="share" class="checkbox">Share Your Story</label>
+						</li>
+						<li>
+							<input type="checkbox" name="post-listing" id="post-listing" value="yes" checked> <label for="post-listing" class="checkbox">Post Your Business Listing</label>
+						</li>
+					</ul>
+				</fieldset>
+			</div><!-- .component -->
+			<div class="signup">
+				<a href="#">Update Profile</a>
+			</div><!-- .signup -->
+		</div><!-- /span -->
+	</div><!-- /row -->
 </form><!-- #your-profile -->
 </div><!--/.container-->

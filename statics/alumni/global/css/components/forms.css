@@ -1,17 +1,12 @@
 /*	Form Styles [YH]
 ---------------------*/
-.form-section.left { margin: 0 40px 0 0 !important; }
-.form-section ul li { margin-bottom: 13px; }
-.form-section input { margin-bottom: 0; }
+form ul li { margin-bottom: 13px; }
+form input { margin-bottom: 0; }
 input[type="file"] { width: 50% }
-.form-section {
-	width: 48%;
-	display: inline-block;
-	margin: 0;
-	padding: 0;
-	vertical-align: top;
-}
-.form-section label {
+
+fieldset { border: 0; }
+
+form label {
 	font-size: 13px;
 	font-weight: bold;
 	display: inline-block;
@@ -27,15 +22,13 @@ label.checkbox {
 }
 .form-section ul li span { 
 	font-size: 13px;
-	display: inline-block;
-	width: 50%;
 	color: #666;
 }
-form .thumbnail img {
+form .profile-pic img {
 	float: left;
 	margin-right: 30px;
 }
-.form-section select.bday {
+form select.bday {
 	display: inline-block;
 	width: auto;
 }
