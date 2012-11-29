@@ -77,6 +77,14 @@ form.filter .filters input { width: 60px; font-size: 11px; margin: 2px 0 2px 2px
 .thumb-hover p.count { font-size: 10px; }
 
 /* Lightbox */
+.modal.fade {
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
 .modal.lb-gallery {
 	width: 754px;
 	margin-left: -377px;
