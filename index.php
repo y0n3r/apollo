@@ -71,7 +71,7 @@
 		<link href="/statics/alumni/global/css/plugins/tn3/skins/tn3-apollo/tn3-apollo.css" rel="stylesheet">
 		
 		<link href="/statics/alumni/global/css/components/style.css" rel="stylesheet">
-		<link href="/statics/alumni/global/css/components/modules.css" rel="stylesheet">
+		<link href="/statics/alumni/global/css/components/titlebox.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/carousel.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/events.css" rel="stylesheet">
 		<link href="/statics/alumni/global/css/components/forms.css" rel="stylesheet">

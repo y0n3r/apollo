@@ -83,6 +83,7 @@ form.filter .filters input { width: 60px; font-size: 11px; margin: 2px 0 2px 2px
 	-ms-transition: none;
 	-o-transition: none;
 	transition: none;
+	top: -10000px;
 }
 
 .modal.lb-gallery {
@@ -91,3 +92,4 @@ form.filter .filters input { width: 60px; font-size: 11px; margin: 2px 0 2px 2px
 }
 
 .lb-gallery .modal-body { max-height: 650px; }
+

@@ -207,14 +207,17 @@ $(document).ready(function(){
 		$(this).find('.thumb-hover').animate({top:'-103'});
 	});
 	
-	$('.gallery').tn3({
-		skin: 'tn3-apollo',
-		skinDir: '/statics/alumni/global/css/plugins/tn3/skins/',
-		autoplay: false,
-		inactive: [
-			'albums',
-			'show-albums',
-			'fullscreen'
-		]
+	$('.thumbnail .thumb-hover').click(function(){
+		$(this).not('.init').siblings('.modal').find('.gallery').tn3({
+			skin: 'tn3-apollo',
+			skinDir: '/statics/alumni/global/css/plugins/tn3/skins/',
+			autoplay: false,
+			inactive: [
+				'albums',
+				'show-albums',
+				'fullscreen'
+			]
+		});
+		$(this).addClass('init');
 	});
 });

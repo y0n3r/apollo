@@ -139,8 +139,8 @@ Here is the markup for the home page, without content for ease of integration.
 				<!-- CQ COMPONENT: Resources -->
 				<div class="section resources">
 					<img src="/dam/career-resources.jpg" />
+					<h3>Career Resources</h3>
 					<div class="interior">
-						<h3>Career Resources</h3>
 						<p>We partner with a variety of reputable companies to offer you the best career opportunities.</p>
 						<ul>
 							<li><a href="">Program Manager School of Business</a>, San Francisco, CA</li>
@@ -155,8 +155,8 @@ Here is the markup for the home page, without content for ease of integration.
 				<!-- CQ COMPONENT: Events -->
 				<div class="section events">
 					<img src="/dam/events.jpg" />
+					<h3>Events</h3>
 					<div class="interior">
-						<h3>Events</h3>
 						<ul>
 							<li>
 								<h4>Alumni Nurses Network</h4>
@@ -179,8 +179,8 @@ Here is the markup for the home page, without content for ease of integration.
 			<div class="span4">
 				<!-- CQ COMPONENT: Benefits & Discounts -->
 				<div class="section benefits-discounts">
+					<h3>Benefits & Discounts</h3>
 					<div class="interior">
-						<h3>Benefits & Discounts</h3>
 						<ul>
 							<li>
 								<a href="">

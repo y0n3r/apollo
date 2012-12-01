@@ -235,38 +235,48 @@ Here is the markup for tertiary pages, without content for ease of integration.
 	</div><!-- /span11 -->
 	<div class="span4 offset1 sidebar">
 		<!-- CQ COMPONENT: Module -->
-		<div class="section module homecoming">
+		<div class="section titlebox solid avocado">
+			<img src="/dam/blockhead_homecoming.jpg" alt="">
 			<h3>Homecoming</h3>
-			<p>See how your fellow alumni celebrated homecoming</p>
-			<div class="filmstrip-block">
-				<h4><a href="">Chicago, IL</a> &mdash; Oct 20, 2011</h4>
-				<ul class="thumbnails">
-					<li>
-						<a class="thumbnail"><img src="/dam/homecoming_1-1.jpg" alt=""></a>
-					</li>
-					<li>
-						<a class="thumbnail"><img src="/dam/homecoming_1-2.jpg" alt=""></a>
-					</li>
-					<li>
-						<a class="thumbnail"><img src="/dam/homecoming_1-3.jpg" alt=""></a>
-					</li>
-				</ul>
+			<div class="interior">
+				<div class="section textimage">
+					<p>See how your fellow alumni celebrated homecoming</p>
+				</div>
+				
+				<div class="filmstrip-block">
+					<h4><a href="">Chicago, IL</a> &mdash; Oct 20, 2011</h4>
+					<ul class="thumbnails">
+						<li>
+							<a class="thumbnail"><img src="/dam/homecoming_1-1.jpg" alt=""></a>
+						</li>
+						<li>
+							<a class="thumbnail"><img src="/dam/homecoming_1-2.jpg" alt=""></a>
+						</li>
+						<li>
+							<a class="thumbnail"><img src="/dam/homecoming_1-3.jpg" alt=""></a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="filmstrip-block">
+					<h4><a href="">Seattle, WA</a> &mdash; Oct 17, 2011</h4>
+					<ul class="thumbnails">
+						<li>
+							<a class="thumbnail"><img src="/dam/homecoming_2-1.jpg" alt=""></a>
+						</li>
+						<li>
+							<a class="thumbnail"><img src="/dam/homecoming_2-2.jpg" alt=""></a>
+						</li>
+						<li>
+							<a class="thumbnail"><img src="/dam/homecoming_2-3.jpg" alt=""></a>
+						</li>
+					</ul>
+				</div>
+				
+				<div class="more">
+					<a class="more-link" href=""><span>Learn More</span></a>
+				</div>
 			</div>
-			<div class="filmstrip-block">
-				<h4><a href="">Seattle, WA</a> &mdash; Oct 17, 2011</h4>
-				<ul class="thumbnails">
-					<li>
-						<a class="thumbnail"><img src="/dam/homecoming_2-1.jpg" alt=""></a>
-					</li>
-					<li>
-						<a class="thumbnail"><img src="/dam/homecoming_2-2.jpg" alt=""></a>
-					</li>
-					<li>
-						<a class="thumbnail"><img src="/dam/homecoming_2-3.jpg" alt=""></a>
-					</li>
-				</ul>
-			</div>
-			<a class="more" href="">See More</a>
 		</div>
 		<!-- END: Block -->
 	</div><!-- /span4+1 -->

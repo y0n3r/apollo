@@ -449,114 +449,154 @@ BREADCRUMB is not in the TEMPLATE
 			</div>
 			<!-- END: FAQ -->
 			
-			<h2>Widget Variations</h2>
+			<h2>Titlebox Variations</h2>
 			<div class="row">
 				<div class="span4">
-					<!-- CQ COMPONENT: Widget -->
-					<div class="section widget generic">
+					<!-- CQ COMPONENT: Titlebox -->
+					<div class="section titlebox bounded grey">
 						<h3>Title</h3>
-						<div class="section textimage">
-							<div class="img top">
-								<img class="media-object" src="http://placehold.it/210x80">
+						<div class="interior">
+							<div class="section textimage">
+								<div class="img top">
+									<img class="media-object" src="http://placehold.it/210x80">
+								</div>
+								<p>Lorem ipsum dolor emet</p>
 							</div>
-							<p>Lorem ipsum dolor emet</p>
+							
+							<div class="more">
+								<a class="more-link" href=""><span>See More</span></a>
+							</div>
 						</div>
 					</div>
-					<!-- END: Widget -->
+					<!-- END: titlebox -->
 				</div>
 				<div class="span4">
-					<!-- CQ COMPONENT: Widget -->
-					<div class="section widget generic">
+					<!-- CQ COMPONENT: titlebox -->
+					<div class="section titlebox bounded grey">
 						<h3>Title</h3>
-						<div class="section textimage">
-							<div class="img left">
-								<img class="media-object" src="http://placehold.it/86x100">
+						<div class="interior">
+							<div class="section textimage">
+								<div class="img left">
+									<img class="media-object" src="http://placehold.it/86x100">
+								</div>
+								<p>Lorem ipsum dolor emet. Consul parata dol emet, ibi suntata.</p>
 							</div>
-							<p>Lorem ipsum dolor emet. Consul parata dol emet, ibi suntata.</p>
+							
+							<div class="more">
+								<a class="more-link" href=""><span>See More</span></a>
+							</div>
 						</div>
 					</div>
-					<!-- END: Widget -->
+					<!-- END: titlebox -->
 				</div>
 				<div class="span8"></div>
 			</div>
 			
 			<div class="row">
 				<div class="span6">
-					<!-- CQ COMPONENT: Widget -->
-					<div class="section widget content">
+					<!-- CQ COMPONENT: titlebox -->
+					<div class="section titlebox open">
 						<h3>Title</h3>
 						<div class="section textimage">
 							<div class="img top">
 								<img class="media-object" src="http://placehold.it/351x154">
 							</div>
 							<p>Lorem ipsum dolor emet</p>
-							<p><a href="">Learn more &rsaquo;</a></p>
+						</div>
+						
+						<div class="more">
+							<a class="more-link" href=""><span>Learn More</span></a>
 						</div>
 					</div>
-					<!-- END: Widget -->
+					<!-- END: titlebox -->
 				</div>
 				<div class="span5">
-					<!-- CQ COMPONENT: Widget -->
-					<div class="section widget content">
+					<!-- CQ COMPONENT: titlebox -->
+					<div class="section titlebox open">
 						<h3>Title</h3>
 						<div class="section textimage">
 							<div class="img top">
 								<img class="media-object" src="http://placehold.it/351x154">
 							</div>
 							<p>Lorem ipsum dolor emet</p>
-							<p><a href="">Learn more &rsaquo;</a></p>
+						</div>
+							
+						<div class="more">
+							<a class="more-link" href=""><span>Learn More</span></a>
 						</div>
 					</div>
-					<!-- END: Widget -->
+					<!-- END: titlebox -->
 				</div>
 				<div class="span5"></div>
 			</div>
 			
 			<div class="row">
 				<div class="span6">
-					<!-- CQ COMPONENT: Widget -->
-					<div class="section widget color blue">
+					<!-- CQ COMPONENT: titlebox -->
+					<div class="section titlebox bounded blue">
 						<h3>Title</h3>
-						<div class="section textimage">
-							<div class="img top">
-								<img class="media-object" src="/dam/student-store.jpg">
+						<div class="interior">
+							<div class="section textimage">
+								<div class="img top">
+									<img class="media-object" src="/dam/student-store.jpg">
+								</div>
 							</div>
-							<p class="spec"><span>Lorem ipsum dolor emet</span></p>
-							<p><a href="">See more &rsaquo;</a></p>
+							
+							<div class="body-text">
+								<p><span>Lorem ipsum dolor emet</span></p>
+							</div>
+							
+							<div class="more">
+								<a class="more-link" href=""><span>See More</span></a>
+							</div>
 						</div>
 					</div>
-					<!-- END: Widget -->
+					<!-- END: titlebox -->
 				</div>
 				<div class="span5">
-					<!-- CQ COMPONENT: Widget -->
-					<div class="section widget color red">
+					<!-- CQ COMPONENT: titlebox -->
+					<div class="section titlebox bounded red">
 						<h3>Title</h3>
-						<div class="section carousel">
-							<ul id="ic-products">
-								<li><img src="/dam/herff-ring.jpg" width="97" height="99" /></li>
-								<li><img src="/dam/herff-ring2.jpg" width="97" height="99" /></li>
-								<li><img src="/dam/herff-pin.jpg" width="97" height="99" /></li>
-							</ul>
-						</div>
-						<div class="section textimage">
-							<p class="spec"><span>Lorem ipsum dolor emet</span></p>
-							<p><a href="">See more &rsaquo;</a></p>
-						</div>
-					</div>
-					<!-- END: Widget -->
-					
-					<!-- CQ COMPONENT: Widget -->
-					<div class="section widget color purple">
-						<h3>Title</h3>
-						<div class="section textimage">
-							<div class="img top">
-								<img class="media-object" src="/dam/liberty-mutual.jpg">
+						<div class="interior">
+							<div class="section carousel">
+								<ul id="ic-products">
+									<li><img src="/dam/herff-ring.jpg" width="97" height="99" /></li>
+									<li><img src="/dam/herff-ring2.jpg" width="97" height="99" /></li>
+									<li><img src="/dam/herff-pin.jpg" width="97" height="99" /></li>
+								</ul>
 							</div>
-							<p class="spec"><span>Lorem ipsum dolor emet</span></p>
-							<p><a href="">See more &rsaquo;</a></p>
+							
+							<div class="body-text">
+								<p><span>Lorem ipsum dolor emet</span></p>
+							</div>
+							
+							<div class="more">
+								<a class="more-link" href=""><span>See More</span></a>
+							</div>
 						</div>
 					</div>
-					<!-- END: Widget -->
+					<!-- END: titlebox -->
+					
+					<!-- CQ COMPONENT: titlebox -->
+					<div class="section titlebox bounded purple">
+						<h3>Liberty Mutual</h3>
+						<div class="interior">
+							<div class="section textimage">
+								<div class="img top">
+									<img class="media-object" src="/dam/liberty-mutual.jpg">
+								</div>
+							</div>
+							
+							<div class="body-text">
+								<p><span>Whether you’re newly graduated, established in a career or ready to retire, Liberty Mutual can help alumni save on home and auto insurance.</span></p>
+							</div>
+							
+							<div class="more">
+								<a class="more-link" href=""><span>Learn More</span></a>
+							</div>
+						</div>
+					</div>
+					<!-- END: titlebox -->
 				</div>
 				<div class="span5"></div>
 	</div><!-- /span11 -->

@@ -40,6 +40,7 @@
 	background: rgba(0,0,0,0.70);
 	display: inline-block;
 	padding: 5px 5px 5px 0 !important;
+	bottom: 0; left: 0;
 }
 .ic_ic-home .ic_thumbnails {
 	display: inline-block;
