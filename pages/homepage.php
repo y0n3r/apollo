@@ -137,70 +137,84 @@ Here is the markup for the home page, without content for ease of integration.
 		<div class="row">
 			<div class="span8">
 				<!-- CQ COMPONENT: Resources -->
-				<div class="section resources">
+				<div class="section titlebox solid purple">
 					<img src="/dam/career-resources.jpg" />
 					<h3>Career Resources</h3>
 					<div class="interior">
-						<p>We partner with a variety of reputable companies to offer you the best career opportunities.</p>
-						<ul>
-							<li><a href="">Program Manager School of Business</a>, San Francisco, CA</li>
-							<li><a href="">Electrical Engineering Intern - RF System Performance</a>, San Jose, CA</li>
-						</ul>
-						<a class="more">See more job listings</a>
+						<div class="richtext">
+							<p>We partner with a variety of reputable companies to offer you the best career opportunities.</p>
+						</div>
+						<div class="linklist liner">
+							<ul>
+								<li><a href="">Program Manager School of Business</a>, San Francisco, CA</li>
+								<li><a href="">Electrical Engineering Intern - RF System Performance</a>, San Jose, CA</li>
+							</ul>
+						</div>
+							
+						<div class="more">
+							<a class="more-link arrow-white" href=""><span>See more job listings</span></a>
+						</div>
 					</div>
 				</div>
 				<!-- END CQ COMPONENT -->
 			</div><!--/span-->
 			<div class="span4">
 				<!-- CQ COMPONENT: Events -->
-				<div class="section events">
+				<div class="section titlebox solid avocado">
 					<img src="/dam/events.jpg" />
 					<h3>Events</h3>
 					<div class="interior">
-						<ul>
-							<li>
-								<h4>Alumni Nurses Network</h4>
-								<p>San Francisco, CA</p>
-								<p>March 11, 2012 at 7:30pm</p>
-								<a href="">More details ></a>
-							</li>
-							<li>
-								<h4>Operation Thank You</h4>
-								<p>Murrieta, CA</p>
-								<p>July 9, 2012 at 5:30pm</p>
-								<a href="">More details ></a>
-							</li>
-						</ul>
-						<a class="more">Find events near you</a>
+						<div class="linklist">
+							<ul>
+								<li>
+									<h4>Alumni Nurses Network</h4>
+									<p>San Francisco, CA</p>
+									<p>March 11, 2012 at 7:30pm</p>
+									<a href="">More details ></a>
+								</li>
+								<li>
+									<h4>Operation Thank You</h4>
+									<p>Murrieta, CA</p>
+									<p>July 9, 2012 at 5:30pm</p>
+									<a href="">More details ></a>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="more">
+							<a class="more-link arrow-black" href=""><span>Find more events near you</span></a>
+						</div>
 					</div>
 				</div>
 				<!-- END CQ COMPONENT -->
 			</div><!--/span-->
 			<div class="span4">
 				<!-- CQ COMPONENT: Benefits & Discounts -->
-				<div class="section benefits-discounts">
+				<div class="section titlebox solid red">
 					<h3>Benefits & Discounts</h3>
 					<div class="interior">
-						<ul>
-							<li>
-								<a href="">
-									<h4>University Library</h4>
-									<p>Lifelong learning made easy</p>
-								</a>
-							</li>
-							<li>
-								<a href="">
-									<h4>University Marketplace</h4>
-									<p>Discounts and deals</p>
-								</a>
-							</li>
-							<li class="last">
-								<a href="">
-									<h4>Scholarships</h4>
-									<p>Find your funding</p>
-								</a>
-							</li>
-						</ul>
+						<div class="linklist block-white">
+							<ul>
+								<li>
+									<a href="">
+										<h4>University Library</h4>
+										<p>Lifelong learning made easy</p>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<h4>University Marketplace</h4>
+										<p>Discounts and deals</p>
+									</a>
+								</li>
+								<li class="last">
+									<a href="">
+										<h4>Scholarships</h4>
+										<p>Find your funding</p>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<!-- END CQ COMPONENT -->

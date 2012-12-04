@@ -1,85 +1,21 @@
-/*	Homepage (Solid Titlebox)
+/*	Global
 ------------------------------------*/
-/* Resources */
-.resources {
-	background: #851782;
-	padding: 0;
-	color: #fff;
-	font-size: 13px;
-}
-.resources.section { display: block; }
-.resources .interior { padding: 10px; }
-
-.resources .interior h3 {
-	margin: 0 0 15px; padding: 0 0 10px;
-	font-size: 21px; line-height: 1.0em;
-	border-bottom: 1px dotted #fff;
+.titlebox {
+	margin: 0 0 20px; padding: 0;
+	overflow: hidden;
+	font-size: 14px;
 }
 
-.resources .interior ul {
-	display: block;
-	border-bottom: 1px dotted #fff;
-	padding: 0 0 10px; margin: 0 0 15px;
-}
-.resources .interior ul li {
-	list-style: none;
-	margin: 0 0 5px; padding: 0;
-}
-
-.resources .interior ul li a {
-	color: #fff;
-	text-decoration: underline;
-	font-family: 'PhoenixSansMedium';
-}
-
-.resources .interior a.more {
+/*	"More-Link" Variations
+------------------------------------*/
+.titlebox a.more-link.arrow-white {
 	display: block;
 	background: url('../../img/arrow_more-white.png') right 0 no-repeat;
 	font-size: 15px;
 	color: #fff;
 }
 
-/* Events */
-.events {
-	background: #b7cd00;
-	color: #000;
-	font-size: 12px;
-}
-.events .interior {
-	padding: 10px;
-}
-
-.events .interior h3 {
-	margin: 0 0 15px; padding: 0 0 10px;
-	font-size: 21px; line-height: 1.0em;
-	border-bottom: 1px dotted #000;
-}
-
-.events .interior ul {
-	margin: 0; padding: 0;
-}
-
-.events .interior ul li {
-	list-style: none;
-	margin: 0 0 10px; padding: 0 0 5px;
-	border-bottom: 1px dotted #000;
-}
-
-.events .interior h4 {
-	font-size: 14px; line-height: 1.0em;
-	margin: 0;
-}
-.events .interior p {
-	line-height: 1.4em;
-	margin: 0;
-}
-
-.events .interior ul li > a {
-	font-family: 'PhoenixSansMedium';
-	color: #000;
-}
-
-.events .interior a.more {
+.titlebox a.more-link.arrow-black {
 	display: block;
 	background: url('../../img/arrow_more-black.png') right 0 no-repeat;
 	font-size: 15px;
@@ -87,56 +23,96 @@
 	font-family: 'PhoenixSansMedium';
 }
 
-.events.section { display: block; }
+.titlebox a.more-link.circle-black {
+	display: inline-block;
+	margin: 12px 5px 15px; padding: 2px 25px 3px 0;
+	background: transparent url('../../img/arrow_circle-black.png') 100% 0 no-repeat;
+	font-size: 16px;
+	color: #000;
+	font-family: 'PhoenixSansMedium';
+}
 
-/* Benefits & Discounts */
-.benefits-discounts {
-	background: #d7234a;
-	padding: 10px;
-	color: #fff;
+.titlebox a.more-link.carat-blue {
+	display: inline-block;
+	margin: 0; padding: 0 8px 0 0;
+	background: transparent url('../../img/arrow_carat-blue.png') right center no-repeat;
+}
+
+/*	Link Lists
+------------------------------------*/
+.titlebox .linklist ul {
+	margin: 0; padding: 0;
 	font-size: 12px;
 }
-.benefits-discounts.section { display: block; }
 
-.benefits-discounts .interior h3 {
-	margin: 0 0 15px; padding: 0 0 10px;
-	font-size: 20px; line-height: 1.0em;
-	border-bottom: 1px dotted #fff;
-}
-
-.benefits-discounts .interior ul {
-	padding: 0; margin: 0;
-}
-
-.benefits-discounts .interior ul li {
+.titlebox .linklist ul li {
 	list-style: none;
-	padding: 0 0 5px; margin: 0 0 10px;
-	border-bottom: 1px dotted #fff;
+	margin: 0 0 5px; padding: 6px 0 0;
+	border-top: 1px dotted #fff;
 }
-.benefits-discounts .interior ul li.last { border-bottom: 0; padding: 0; margin: 0; }
+.titlebox.orange .linklist ul li { border-color: #fff; }
+.titlebox.red .linklist ul li { border-color: #fff; }
+.titlebox.purple .linklist ul li { border-color: #fff; }
+.titlebox.blue .linklist ul li { border-color: #fff; }
+.titlebox.pale-blue .linklist ul li { border-color: #000; }
+.titlebox.green .linklist ul li { border-color: #fff; }
+.titlebox.avocado .linklist ul li { border-color: #000; }
 
-.benefits-discounts .interior ul li a {
-	display: block;
-	color: #fff;
-	background: url('../../img/arrow_more-white.png') right center no-repeat;
+.titlebox .linklist h4 {
+	line-height: 1.0em;
+	margin: 0;
+	font-size: 14px;
+	font-family: 'PhoenixSansMedium';
 }
-
-.benefits-discounts .interior ul li a h4 {
-	font-size: 14px; line-height: 1.0em;
+.titlebox .linklist p {
+	line-height: 1.4em;
 	margin: 0;
 }
 
-
-/*	Titlebox Variations
-------------------------------------*/
-/* Global */
-.titlebox {
-	margin: 0 0 20px; padding: 0;
-	overflow: hidden;
-	font-size: 14px;
+.titlebox .linklist ul li > a {
+	font-family: 'PhoenixSansMedium';
 }
 
-/* Solid */
+/* Block Style */
+.titlebox .linklist.block-white ul li { background: url('../../img/arrow_more-white.png') right center no-repeat; }
+.titlebox .linklist.block-black ul li { background: url('../../img/arrow_more-black.png') right center no-repeat; }
+
+.titlebox .linklist.block-white ul li > a,
+.titlebox .linklist.block-black ul li > a
+{
+	font-family: 'PhoenixSansLight';
+}
+.titlebox .linklist.block-white ul li > a h4,
+.titlebox .linklist.block-black ul li > a h4
+{
+	font-family: 'PhoenixSansMedium';
+}
+
+/* Liner Style */
+.titlebox .linklist.liner {
+	font-size: 13px;
+	border-top: 1px dotted #fff;
+	margin: 0; padding: 5px 0 0;
+}
+.titlebox .linklist.liner ul {
+	display: block;
+	padding: 0; margin: 0 0 15px;
+}
+.titlebox .linklist.liner ul li {
+	list-style: none;
+	margin: 0 0 5px; padding: 0;
+	border: 0;
+}
+
+.titlebox .linklist.liner ul li a {
+	color: #fff;
+	text-decoration: underline;
+	font-family: 'PhoenixSansMedium';
+}
+
+
+/*	Solid
+------------------------------------*/
 .titlebox.solid {
 	padding: 0;
 }
@@ -151,18 +127,25 @@
 
 .titlebox.solid .interior {
 	overflow: hidden;
-	padding: 10px;
+	padding: 5px 10px 10px;
 }
-
-.titlebox.solid > img { margin-bottom: 10px; }
 
 .titlebox.solid h3 {
-	margin: 0; padding: 2px 10px;
-	font-size: 21px;
+	margin: 10px 10px 0; padding: 0;
 	line-height: 1em;
+	font-size: 20px;
+	font-family: 'PhoenixSansMedium';
 }
 
-/* Bounded */
+.titlebox.solid .more {
+	margin: 0; padding: 6px 0 0;
+	border-top: 1px dotted #fff;
+}
+.titlebox.solid.pale-blue .more { border-color: #000; }
+.titlebox.solid.avocado .more { border-color: #000; }
+
+/*	Bounded
+------------------------------------*/
 .titlebox.bounded {}
 
 .titlebox.bounded .interior {
@@ -215,13 +198,15 @@
 	margin: 0; padding: 0;
 }
 
-/* Open */
+/*	Open
+------------------------------------*/
 .titlebox.open {}
 .titlebox.open h3 { background: transparent; padding: 0 0 5px; margin: 0 0 10px; border-bottom: 1px solid #000; }
 .titlebox.content .section { border: 0; padding: 0; }
 .titlebox.content .img { border: 2px solid #ededed; text-align: center; }
 
-/* Carousel inside a Titlebox  */
+/*	Carousels
+------------------------------------*/
 .titlebox .carousel {
 	border-width: 0 2px;
 	margin: 0;
@@ -237,20 +222,3 @@
 .ic_ic-products { margin: 0 auto; }
 .ic_ic-products .ic_right_nav, .ic_ic-products .ic_left_nav { display: none; }
 
-
-/* Homecoming */
-/* We might want to make this more generic once we have a block (module) audit */
-
-
-.homecoming h3 { font-size: 27px; margin: 12px 5px 5px; line-height: 1em; }
-
-.homecoming p { font-size: 13px; margin: 0 5px 10px; width: 200px; }
-
-.homecoming a.more {
-	display: inline-block;
-	margin: 12px 5px 15px; padding: 2px 25px 3px 0;
-	background: transparent url('../../img/arrow_signup.png') 100% 0 no-repeat;
-	font-size: 16px;
-	color: #000;
-	font-family: 'PhoenixSansMedium';
-}

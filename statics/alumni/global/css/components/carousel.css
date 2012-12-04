@@ -16,6 +16,9 @@
 	font-size: 11px;
 	margin: 0 0 20px 0;
 }
+.ic_caption .avocado .dateline { color: #000; }
+.ic_caption .pale-blue .dateline { color: #000; }
+
 .ic_ic-home .ic_caption .headline {
 	font-size: 45px;
 	line-height: 1.0em;
@@ -33,6 +36,8 @@
 	color: #fff;
 	font-family: 'PhoenixSansMedium';
 }
+.ic_caption .avocado a.read-more { color: #000; }
+.ic_caption .pale-blue a.read-more { color: #000; }
 
 /*___*** Thumbnails ***___*/
 .ic_ic-home .ic_thumbnail_tray {

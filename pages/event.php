@@ -274,7 +274,7 @@ Here is the markup for tertiary pages, without content for ease of integration.
 				</div>
 				
 				<div class="more">
-					<a class="more-link" href=""><span>Learn More</span></a>
+					<a class="more-link circle-black" href=""><span>Learn More</span></a>
 				</div>
 			</div>
 		</div>
